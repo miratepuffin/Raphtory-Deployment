@@ -1,78 +1,102 @@
 version: '3.3'
 
 services:
-    #### Monitoring front-end ####
-    prometheus:
-        build: prometheus/
-        image: miratepuffin/raphtory_prometheus
-        ports:
-            - 8888:9090
-        volumes:
-            - prometheus_data:/prometheus
-            - ./charts_html:/usr/share/prometheus/consoles
-        env_file: .env
-        deploy:
-            endpoint_mode: vip
-            replicas: 1
+   #### Monitoring front-end ####
+   prometheus:
+      build: prometheus/
+      image: miratepuffin/raphtory_prometheus
+      ports:
+         - 8888:9090
+      volumes:
+         - prometheus_data:/prometheus
+         - ./charts_html:/usr/share/prometheus/consoles
+      env_file: .env
+      deploy:
+         endpoint_mode: vip
+         replicas: 1
+         placement:
+            constraints: [ node.labels.raphtoryrole==setupjobs ]
 
-    #### runZoo ####
-    zooKeeper:
-        image: quay.io/miratepuffin/zookeeper:latest
-        deploy:
-            endpoint_mode: vip
-            replicas: 1
+   zooKeeper:
+       image: quay.io/miratepuffin/zookeeper:latest
+       deploy:
+          endpoint_mode: vip
+          replicas: 1
+          placement:
+             constraints:
+                - node.labels.raphtoryrole==setupjobs
 
-    #### seedSetup ####
-    seedNode:
+   #### seedSetup ####
+   seedNode:
+      image: miratepuffin/raphtory
+      depends_on:
+           - zooKeeper
+      command: env-setter.sh seedNode
+      env_file: .env
+      deploy:
+         endpoint_mode: dnsrr
+         replicas: 1
+         placement:
+            constraints:
+               - node.labels.raphtoryrole==setupjobs
+
+   #### Machines Setup ####
+   partitionManager:
+      image: miratepuffin/raphtory
+      depends_on:
+         - seedNode
+         - watchDog
+      command: env-setter.sh partitionManager
+      env_file: .env
+      deploy:
+         endpoint_mode: dnsrr
+         #replicas: 1 #$NUMBER_OF_PARTITIONS
+         mode: global
+         placement:
+            constraints:
+               - node.labels.raphtoryrole==mainjobs
+
+   router:
        image: miratepuffin/raphtory
        depends_on:
-            - zooKeeper
-       command: env-setter.sh seedNode
+          - partitionManager
+       command: env-setter.sh router
        env_file: .env
        deploy:
           endpoint_mode: dnsrr
-          replicas: 1
+          #replicas: 1
+          mode: global
+          placement:
+             constraints:
+                - node.labels.raphtoryrole==mainjobs
 
-    #### Machines Setup ####
-    partitionManager:
-        image: miratepuffin/raphtory
-        depends_on:
-            - seedNode
-            - watchDog
-        command: env-setter.sh partitionManager
-        env_file: .env
-        deploy:
-            endpoint_mode: dnsrr
-            replicas: 1 #$NUMBER_OF_PARTITIONS
+   updater:
+      image: miratepuffin/raphtory
+      depends_on:
+         - router
+      command: env-setter.sh updater
+      env_file: .env
+      deploy:
+         replicas: 1
+         placement:
+            constraints:
+               - node.labels.raphtoryrole==setupjobs
 
-    router:
-        image: miratepuffin/raphtory
-        depends_on:
-            - partitionManager
-        command: env-setter.sh router
-        env_file: .env
-        deploy:
-            endpoint_mode: dnsrr
-            replicas: 1
+   watchDog:
+      image: miratepuffin/raphtory
+      depends_on:
+         - seedNode
+      command: env-setter.sh clusterUp
+      env_file: .env
+      deploy:
+         endpoint_mode: vip
+         replicas: 1
+      deploy:
+         replicas: 1
+         placement:
+            constraints:
+               - node.labels.raphtoryrole==setupjobs
 
-    updater:
-        image: miratepuffin/raphtory
-        depends_on:
-            - router
-        command: env-setter.sh updater
-        env_file: .env
-        deploy:
-            replicas: 1
-
-    watchDog:
-        image: miratepuffin/raphtory
-        depends_on:
-            - seedNode
-        command: env-setter.sh clusterUp
-        env_file: .env
-        deploy:
-            endpoint_mode: vip
-            replicas: 1
 
 #    lam:
 #        image: miratepuffin/raphtory
@@ -98,4 +122,4 @@ services:
 #            - HOST_IP=raphtory_rest_1
 
 volumes:
-    prometheus_data:
+   prometheus_data:
