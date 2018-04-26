@@ -47,6 +47,7 @@ services:
         depends_on:
             - seedNode
             - watchDog
+            - zooKeeper
         command: env-setter.sh partitionManager
         env_file: .env
         deploy:
@@ -60,21 +61,26 @@ services:
     router:
          image: miratepuffin/raphtory
          depends_on:
-             - partitionManager
+            - zooKeeper
+            - seedNode
+            - watchDog
+
          command: env-setter.sh router
          env_file: .env
          deploy:
-             endpoint_mode: dnsrr
-             #replicas: 1
-             mode: global
-             placement:
-                 constraints:
-                    - node.labels.raphtoryrole==mainjobs
+            endpoint_mode: dnsrr
+            replicas: 1
+            #mode: global
+            placement:
+                constraints:
+                   - node.labels.raphtoryrole==mainjobs
 
     updater:
         image: miratepuffin/raphtory
         depends_on:
-            - router
+            - zooKeeper
+            - seedNode
+            - watchDog
         command: env-setter.sh updater
         env_file: .env
         deploy:
@@ -87,6 +93,7 @@ services:
         image: miratepuffin/raphtory
         depends_on:
             - seedNode
+            - zooKeeper
         command: env-setter.sh clusterUp
         env_file: .env
         deploy:
