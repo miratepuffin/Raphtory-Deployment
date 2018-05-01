@@ -69,11 +69,14 @@ services:
          env_file: .env
          deploy:
             endpoint_mode: dnsrr
-            replicas: 1
-            #mode: global
+            #replicas: 1
+            mode: global
             placement:
                 constraints:
-                   - node.labels.raphtoryrole==mainjobs
+                  - node.labels.raphtoryrole==mainjobs
+#            resources:
+#                limits:
+#                    cpus: '1'
 
     updater:
         image: miratepuffin/raphtory
@@ -88,6 +91,10 @@ services:
             placement:
                 constraints:
                     - node.labels.raphtoryrole==setupjobs
+        volumes:
+            - ./gab:/var/lib/redis
+            - ./redis:/etc/redis
+
 
     watchDog:
         image: miratepuffin/raphtory
