@@ -9,3 +9,6 @@ STDOUT_LOG=true
 JAVA_OPTS=-XX:+UseConcMarkSweepGC -XX:+UseParNewGC -Xms40g -Xmx40g -XX:NewRatio=5
 UPDATES_FREQ=1000
 LAM_NAME="testLam"
+BITCOIN_USERNAME="user"
+BITCOIN_PASSWORD="pass"
+BITCOIN_NODE="https://example.eecs.ac.uk"
