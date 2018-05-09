@@ -111,6 +111,21 @@ services:
             placement:
                 constraints:
                     - node.labels.raphtoryrole==setupjobs
+    gablam:
+        image: miratepuffin/raphtory
+        depends_on:
+            - seedNode
+            - zooKeeper
+        command: env-setter.sh liveAnalysis
+        env_file: .env
+        deploy:
+            endpoint_mode: vip
+            replicas: 1
+        deploy:
+            replicas: 1
+            placement:
+                constraints:
+                    - node.labels.raphtoryrole==setupjobs
 
 
     #lam:
