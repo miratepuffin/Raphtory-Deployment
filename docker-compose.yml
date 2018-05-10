@@ -115,6 +115,9 @@ services:
         image: miratepuffin/raphtory
         depends_on:
             - seedNode
+            - watchDog
+            - partitionManager
+            - router
             - zooKeeper
         command: env-setter.sh liveAnalysis
         env_file: .env
