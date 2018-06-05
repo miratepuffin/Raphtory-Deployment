@@ -43,7 +43,7 @@ function run() {
     remove
     sleep 180
 }
-
+#poll_loop
 rm -rf .env
 remove
 cp .env.random .env
@@ -54,4 +54,4 @@ run 14
 rm -rf .env
 cp .env.gab .env
 run 14
-
+#
