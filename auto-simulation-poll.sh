@@ -1,7 +1,12 @@
 #!/bin/bash
 
-alias remove="docker stack remove raphtory"
-alias deploy="docker stack deploy raphtory --compose-file docker-compose.yml"
+function remove() {
+    docker stack remove raphtory
+}
+
+function deploy {
+    docker stack deploy raphtory --compose-file docker-compose.yml
+}
 
 function poll() {
     python jsonparser.py
@@ -40,6 +45,7 @@ function run() {
 }
 
 rm -rf .env
+remove
 cp .env.random .env
 run 2
 run 4
