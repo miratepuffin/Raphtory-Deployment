@@ -14,18 +14,12 @@ services:
         deploy:
             endpoint_mode: vip
             replicas: 1
-            placement:
-                constraints: 
-                    - node.labels.raphtoryrole==setupjobs
 
     zooKeeper:
          image: quay.io/miratepuffin/zookeeper:latest
          deploy:
              endpoint_mode: vip
              replicas: 1
-             placement:
-                 constraints:
-                    - node.labels.raphtoryrole==setupjobs
 
     #### seedSetup ####
     seedNode:
@@ -37,9 +31,7 @@ services:
         deploy:
             endpoint_mode: dnsrr
             replicas: 1
-            placement:
-                constraints:
-                    - node.labels.raphtoryrole==setupjobs
+
 
     #### Machines Setup ####
     partitionManager:
@@ -54,47 +46,6 @@ services:
             endpoint_mode: dnsrr
             #replicas: 1 #$NUMBER_OF_PARTITIONS
             mode: global
-            placement:
-                constraints:
-                    - node.labels.raphtoryrole==mainjobs
-
-    router:
-         image: miratepuffin/raphtory
-         depends_on:
-            - zooKeeper
-            - seedNode
-            - watchDog
-
-         command: env-setter.sh router
-         env_file: .env
-         deploy:
-            endpoint_mode: dnsrr
-            #replicas: 1
-            mode: global
-            placement:
-                constraints:
-                  - node.labels.raphtoryrole==mainjobs
-#            resources:
-#                limits:
-#                    cpus: '1'
-
-    updater:
-        image: miratepuffin/raphtory
-        depends_on:
-            - zooKeeper
-            - seedNode
-            - watchDog
-        command: env-setter.sh updater
-        env_file: .env
-        deploy:
-            replicas: 1
-            placement:
-                constraints:
-                    - node.labels.raphtoryrole==setupjobs
-        volumes:
-            - ./gab:/var/lib/redis
-            - ./redis:/etc/redis
-
 
     watchDog:
         image: miratepuffin/raphtory
@@ -108,27 +59,6 @@ services:
             replicas: 1
         deploy:
             replicas: 1
-            placement:
-                constraints:
-                    - node.labels.raphtoryrole==setupjobs
-    gablam:
-        image: miratepuffin/raphtory
-        depends_on:
-            - seedNode
-            - watchDog
-            - partitionManager
-            - router
-            - zooKeeper
-        command: env-setter.sh liveAnalysis
-        env_file: .env
-        deploy:
-            endpoint_mode: vip
-            replicas: 1
-        deploy:
-            replicas: 1
-            placement:
-                constraints:
-                    - node.labels.raphtoryrole==setupjobs
 
 
     #lam:

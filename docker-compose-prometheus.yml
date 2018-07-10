@@ -1,0 +1,21 @@
+version: '3.3'
+
+services:
+    #### Monitoring front-end ####
+    prometheus:
+        build: prometheus/
+        image: miratepuffin/raphtory_prometheus
+        ports:
+            - 8888:9090
+        volumes:
+            - prometheus_data:/prometheus
+            - ./charts_html:/usr/share/prometheus/consoles
+        env_file: .env
+        deploy:
+            endpoint_mode: vip
+            replicas: 1
+
+    #           - HOST_IP=raphtory_rest_1
+
+volumes:
+    prometheus_data:

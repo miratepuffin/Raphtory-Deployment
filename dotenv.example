@@ -8,10 +8,9 @@ ADD_ONLY_VERTEX=false
 ADD_ONLY_EDGE=false
 PROMETHEUS=true
 STDOUT_LOG=true
-LAMCLASS=com.raphtory.examples.gab.actors.GabLiveAnalysisManager
+LAMCLASS=com.raphtory.core.actors.analysismanager.TestLAM
 ROUTERCLASS=com.raphtory.examples.gab.actors.RaphtoryGabRouter
 UPDATERCLASS=com.raphtory.examples.gab.actors.GabSpout
 BITCOIN_USERNAME="user"
 BITCOIN_PASSWORD="pass"
 BITCOIN_NODE="https://example.eecs.ac.uk"
-

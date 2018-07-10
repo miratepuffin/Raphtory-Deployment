@@ -1,0 +1,17 @@
+version: '3.3'
+
+networks:
+  default:
+    external:
+      name: raphtory_default
+
+services:
+    gablam:
+        image: miratepuffin/raphtory:ben
+        command: env-setter.sh singleNodeLam
+        env_file: .env
+        deploy:
+            endpoint_mode: vip
+            replicas: 1
+        deploy:
+            replicas: 1
