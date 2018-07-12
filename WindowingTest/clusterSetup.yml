@@ -1,0 +1,33 @@
+version: '3.3'
+
+services:
+    zooKeeper:
+         image: quay.io/miratepuffin/zookeeper:latest
+         deploy:
+             endpoint_mode: vip
+             replicas: 1
+
+    #### seedSetup ####
+    seedNode:
+        image: miratepuffin/raphtory:bazar
+        depends_on:
+              - zooKeeper
+        command: env-setter.sh singleNodeSetup
+        env_file: .env
+        deploy:
+            endpoint_mode: dnsrr
+            replicas: 1
+
+    router:
+         image: miratepuffin/raphtory:bazar
+         depends_on:
+            - zooKeeper
+            - seedNode
+            - watchDog
+
+         command: env-setter.sh router
+         env_file: .env
+         deploy:
+            endpoint_mode: dnsrr
+            #replicas: 1
+            mode: global
