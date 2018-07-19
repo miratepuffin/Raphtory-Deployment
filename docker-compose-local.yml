@@ -14,18 +14,18 @@ services:
         deploy:
             endpoint_mode: vip
             replicas: 1
-            
+
 
     zooKeeper:
          image: quay.io/miratepuffin/zookeeper:latest
          deploy:
              endpoint_mode: vip
              replicas: 1
-             
+
 
     #### seedSetup ####
     seedNode:
-        image: miratepuffin/raphtory
+        image: miratepuffin/raphtory:bazar
         depends_on:
               - zooKeeper
         command: env-setter.sh seedNode
@@ -33,11 +33,11 @@ services:
         deploy:
             endpoint_mode: dnsrr
             replicas: 1
-            
+
 
     #### Machines Setup ####
     partitionManager:
-        image: miratepuffin/raphtory
+        image: miratepuffin/raphtory:bazar
         depends_on:
             - seedNode
             - watchDog
@@ -48,10 +48,10 @@ services:
             endpoint_mode: dnsrr
             #replicas: 1 #$NUMBER_OF_PARTITIONS
             mode: global
-            
+
 
     router:
-         image: miratepuffin/raphtory
+         image: miratepuffin/raphtory:bazar
          depends_on:
             - zooKeeper
             - seedNode
@@ -61,15 +61,15 @@ services:
          env_file: .env
          deploy:
             endpoint_mode: dnsrr
-            #replicas: 1
+            replicas: 1
             mode: global
-            
+
 #            resources:
 #                limits:
 #                    cpus: '1'
 
     updater:
-        image: miratepuffin/raphtory
+        image: miratepuffin/raphtory:bazar
         depends_on:
             - zooKeeper
             - seedNode
@@ -78,14 +78,14 @@ services:
         env_file: .env
         deploy:
             replicas: 1
-            
+
         volumes:
             - ./gab:/var/lib/redis
             - ./redis:/etc/redis
 
 
     watchDog:
-        image: miratepuffin/raphtory
+        image: miratepuffin/raphtory:bazar
         depends_on:
             - seedNode
             - zooKeeper
@@ -96,23 +96,23 @@ services:
             replicas: 1
         deploy:
             replicas: 1
-            
-    gablam:
-        image: miratepuffin/raphtory
-        depends_on:
-            - seedNode
-            - watchDog
-            - partitionManager
-            - router
-            - zooKeeper
-        command: env-setter.sh liveAnalysis
-        env_file: .env
-        deploy:
-            endpoint_mode: vip
-            replicas: 1
-        deploy:
-            replicas: 1
-            
+
+    #gablam:
+    #    image: miratepuffin/raphtory
+    #    depends_on:
+    #        - seedNode
+    #        - watchDog
+    #        - partitionManager
+    #        - router
+    #        - zooKeeper
+    #    command: env-setter.sh liveAnalysis
+    #    env_file: .env
+    #    deploy:
+    #        endpoint_mode: vip
+    #        replicas: 1
+    #    deploy:
+    #        replicas: 1
+
 
 
     #lam:

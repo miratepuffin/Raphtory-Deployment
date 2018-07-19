@@ -9,7 +9,7 @@ services:
 
     #### seedSetup ####
     seedNode:
-        image: miratepuffin/raphtory:bazar
+        image: miratepuffin/raphtory:latest
         depends_on:
               - zooKeeper
         command: env-setter.sh singleNodeSetup
@@ -19,11 +19,10 @@ services:
             replicas: 1
 
     router:
-         image: miratepuffin/raphtory:bazar
+         image: miratepuffin/raphtory:latest
          depends_on:
             - zooKeeper
             - seedNode
-            - watchDog
 
          command: env-setter.sh router
          env_file: .env
