@@ -47,6 +47,25 @@ services:
             #replicas: 1 #$NUMBER_OF_PARTITIONS
             mode: global
 
+    router:
+         image: miratepuffin/raphtory
+         depends_on:
+            - zooKeeper
+            - seedNode
+            - watchDog
+
+         command: env-setter.sh router
+         env_file: .env
+         deploy:
+            endpoint_mode: dnsrr
+            #replicas: 1
+            mode: global
+
+#            resources:
+#                limits:
+#                    cpus: '1'
+ 
+
     watchDog:
         image: miratepuffin/raphtory
         depends_on:
