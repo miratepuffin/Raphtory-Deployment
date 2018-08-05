@@ -21,8 +21,7 @@ services:
              endpoint_mode: vip
              replicas: 1
 
-    #### seedSetup ####
-    seedNode:
+    singleNode:
         image: miratepuffin/raphtory:ben
         depends_on:
               - zooKeeper
