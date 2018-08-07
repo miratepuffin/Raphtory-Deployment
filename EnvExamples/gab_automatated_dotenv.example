@@ -1,0 +1,11 @@
+COMPOSE_PROJECT_NAME=raphtory
+ZOOKEEPER=zooKeeper:2181
+JAVA_OPTS=-XX:+UseConcMarkSweepGC -XX:+DisableExplicitGC -XX:+UseParNewGC -Xms40g -Xmx40g -XX:NewRatio=3
+ADD_ONLY_VERTEX=false
+ADD_ONLY_EDGE=false
+PROMETHEUS=true
+STDOUT_LOG=true
+LAMCLASS=com.raphtory.examples.gab.actors.GabLiveAnalyserManagerMostUsedTopics
+ROUTERCLASS=com.raphtory.examples.gab.actors.RaphtoryGabRouter
+UPDATERCLASS=com.raphtory.examples.gab.actors.GabSpout
+PARTITIONINGCLASS=com.raphtory.examples.partitioning.LinearGreedy
