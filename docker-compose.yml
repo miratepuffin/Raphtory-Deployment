@@ -77,7 +77,7 @@ services:
             mode: global
             placement:
                 constraints:
-                    - node.labels.raphtoryrole==mainjobs
+                    - node.labels.raphtoryrole==partitionManager
 
     router:
          image: miratepuffin/raphtory:ben
@@ -94,7 +94,7 @@ services:
             mode: global
             placement:
                 constraints:
-                  - node.labels.raphtoryrole==mainjobs
+                  - node.labels.raphtoryrole==router
 #            resources:
 #                limits:
 #                    cpus: '1'

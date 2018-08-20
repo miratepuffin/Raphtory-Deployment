@@ -26,7 +26,7 @@ function clean_labels() {
 }
 
 function setup_workers() {
-    for i in $(cat router.list | head -n $1); do
+    for i in $(cat routers.list | head -n $1); do
         docker node update --label-add raphtoryrole=router $i
     done
 
@@ -44,7 +44,7 @@ function run() {
     date
     echo "$1 PM/R"
     clean_labels
-    setup_workers $1 $2
+    setup_workers $1 $2 $3
     deploy
     sleep 180
     poll_loop
