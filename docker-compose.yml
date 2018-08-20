@@ -22,7 +22,7 @@ services:
             replicas: 1
             placement:
                 constraints:
-                    - node.labels.raphtoryrole==setupjobs
+                    - node.labels.raphtoryrole==prometheus
 
     zooKeeper:
          image: miratepuffin/raphtory-zookeeper
