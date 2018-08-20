@@ -33,6 +33,11 @@ function setup_workers() {
     for i in $(cat pm.list | head -n $1); do
         docker node update --label-add raphtoryrole=partitionManager $i
     done
+
+    echo "PARTITION_MIN=$1" >> .env
+    echo "ROUTER_MIN=$1" >> .env
+    echo "UPDATES_FREQ=$2" >> .env
+    echo "ROUTERCLASS=$3" >> .env
 }
 
 function run() {
@@ -50,6 +55,6 @@ function run() {
 
 rm -rf .env
 remove
-cp .env.random .env
-run 4 2
+cp EnvExamples/windowing_dotenv.example .env
+run 4 5000 com.raphtory.examples.random.actors.RandomRouter
 rm -rf .env
