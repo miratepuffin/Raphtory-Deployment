@@ -34,6 +34,8 @@ function setup_workers() {
         docker node update --label-add raphtoryrole=partitionManager $i
     done
 
+    docker node update --label-add raphtoryrole=setupjobs moon14.eecs.qmul.ac.uk
+
     echo "PARTITION_MIN=$1" >> .env
     echo "ROUTER_MIN=$1" >> .env
     echo "UPDATES_FREQ=$2" >> .env
@@ -46,7 +48,7 @@ function run() {
     date
     echo "$1 PM/R"
     clean_labels
-    setup_workers $1 $2 $3
+    setup_workers $1 $2 $3 $4 $5
     deploy
     sleep 180
     poll_loop
