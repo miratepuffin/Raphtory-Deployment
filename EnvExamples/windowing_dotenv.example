@@ -5,6 +5,7 @@ ADD_ONLY_VERTEX=false
 ADD_ONLY_EDGE=false
 PROMETHEUS=true
 STDOUT_LOG=true
+WINDOWING=true
 LAMCLASS=com.raphtory.examples.random.actors.RandomLAM
 UPDATERCLASS=com.raphtory.examples.random.actors.RandomSpout
 PARTITIONINGCLASS=com.raphtory.examples.partitioning.LinearGreedy
