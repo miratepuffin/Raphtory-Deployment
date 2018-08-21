@@ -51,6 +51,8 @@ function run() {
     sleep 180
     poll_loop
     date
+    echo "Removing cluster in 30 seconds as dead letters > 500"
+    sleep 30
     remove
     sleep 180
 }
