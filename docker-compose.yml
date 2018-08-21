@@ -35,7 +35,7 @@ services:
 
     #### seedSetup ####
     seedNode:
-        image: miratepuffin/raphtory:ben
+        image: miratepuffin/raphtory:bazar
         depends_on:
               - zooKeeper
         command: env-setter.sh seedNode
@@ -48,7 +48,7 @@ services:
                     - node.labels.raphtoryrole==setupjobs
 
     watchDog:
-        image: miratepuffin/raphtory:ben
+        image: miratepuffin/raphtory:bazar
         depends_on:
             - seedNode
             - zooKeeper
@@ -64,7 +64,7 @@ services:
 
     #### Machines Setup ####
     partitionManager:
-        image: miratepuffin/raphtory:ben
+        image: miratepuffin/raphtory:bazar
         depends_on:
             - seedNode
             - watchDog
@@ -80,7 +80,7 @@ services:
                     - node.labels.raphtoryrole==partitionManager
 
     router:
-         image: miratepuffin/raphtory:ben
+         image: miratepuffin/raphtory:bazar
          depends_on:
             - zooKeeper
             - seedNode
@@ -100,7 +100,7 @@ services:
 #                    cpus: '1'
 
     updater:
-        image: miratepuffin/raphtory:ben
+        image: miratepuffin/raphtory:bazar
         depends_on:
             - zooKeeper
             - seedNode
@@ -117,22 +117,22 @@ services:
 #            - ./redis:/etc/redis
 
 
-    lam:
-        image: miratepuffin/raphtory:ben
-        depends_on:
-            - seedNode
-            - watchDog
-            - partitionManager
-            - router
-            - zooKeeper
-        command: env-setter.sh liveAnalysis
-        env_file: .env
-        deploy:
-            endpoint_mode: vip
-            replicas: 1
-            placement:
-                constraints:
-                    - node.labels.raphtoryrole==setupjobs
+#    lam:
+#        image: miratepuffin/raphtory:bazar
+#        depends_on:
+#            - seedNode
+#            - watchDog
+#            - partitionManager
+#            - router
+#            - zooKeeper
+#        command: env-setter.sh liveAnalysis
+#        env_file: .env
+#        deploy:
+#            endpoint_mode: vip
+#            replicas: 1
+#            placement:
+#                constraints:
+#                    - node.labels.raphtoryrole==setupjobs
 
 
 volumes:

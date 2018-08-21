@@ -37,7 +37,9 @@ function setup_workers() {
     echo "PARTITION_MIN=$1" >> .env
     echo "ROUTER_MIN=$1" >> .env
     echo "UPDATES_FREQ=$2" >> .env
-    echo "ROUTERCLASS=$3" >> .env
+    echo "WINDOW_SIZE=$3" >> .env
+    echo "ENTITY_POOL=$4" >> .env
+    echo "ROUTERCLASS=$5" >> .env
 }
 
 function run() {
@@ -56,5 +58,5 @@ function run() {
 rm -rf .env
 remove
 cp EnvExamples/windowing_dotenv.example .env
-run 4 5000 com.raphtory.examples.random.actors.RandomRouter
+run 4 5000 300 10000 com.raphtory.examples.random.actors.RandomRouter
 rm -rf .env
