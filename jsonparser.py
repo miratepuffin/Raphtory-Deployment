@@ -6,6 +6,7 @@ response = urllib2.urlopen('http://moe.eecs.qmul.ac.uk:8888/api/v1/query?query=a
 parsed = json.load(response)["data"]["result"]
 sum = 0
 for metric in parsed:
+    print(int(metric["value"][1]))
     sum += int(metric["value"][1])
 
 if (sum > 500):
