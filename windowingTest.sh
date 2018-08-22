@@ -10,7 +10,6 @@ function deploy {
 
 function poll() {
     python jsonparser.py
-    return $?
 }
 
 function poll_loop() {
@@ -51,7 +50,7 @@ function run() {
     setup_workers $1 $2 $3 $4 $5
     deploy
     sleep 180
-    poll_loop
+    poll
     date
     echo "Removing cluster in 30 seconds as dead letters > 500"
     sleep 30

@@ -4,12 +4,12 @@ import urllib2
 
 response = urllib2.urlopen('http://moe.eecs.qmul.ac.uk:8888/api/v1/query?query=akka_system_dead_letters_total')
 parsed = json.load(response)["data"]["result"]
-sum = 0
-for metric in parsed:
-    print(int(metric["value"][1]))
-    sum += int(metric["value"][1])
 
-if (sum > 500):
-    exit(0)
-else:
-    exit(1)
+sum = 0
+while (sum > 500)
+    time.sleep(10)
+    sum = 0
+    for metric in parsed:
+        sum += int(metric["value"][1])
+    print(sum)
+exit(0)
