@@ -35,7 +35,7 @@ services:
 
     #### seedSetup ####
     seedNode:
-        image: miratepuffin/raphtory:bazar
+        image: miratepuffin/raphtory:ben
         depends_on:
               - zooKeeper
         command: env-setter.sh seedNode
@@ -48,7 +48,7 @@ services:
                     - node.labels.raphtoryrole==setupjobs
 
     watchDog:
-        image: miratepuffin/raphtory:bazar
+        image: miratepuffin/raphtory:ben
         depends_on:
             - seedNode
             - zooKeeper
@@ -64,7 +64,7 @@ services:
 
     #### Machines Setup ####
     partitionManager:
-        image: miratepuffin/raphtory:bazar
+        image: miratepuffin/raphtory:ben
         depends_on:
             - seedNode
             - watchDog
@@ -77,10 +77,10 @@ services:
             mode: global
             placement:
                 constraints:
-                    - node.labels.raphtoryrole==partitionManager
+                    - node.labels.raphtoryrole==mainjob
 
     router:
-         image: miratepuffin/raphtory:bazar
+         image: miratepuffin/raphtory:ben
          depends_on:
             - zooKeeper
             - seedNode
@@ -94,13 +94,13 @@ services:
             mode: global
             placement:
                 constraints:
-                  - node.labels.raphtoryrole==router
+                  - node.labels.raphtoryrole==mainjob
 #            resources:
 #                limits:
 #                    cpus: '1'
 
     updater:
-        image: miratepuffin/raphtory:bazar
+        image: miratepuffin/raphtory:ben
         depends_on:
             - zooKeeper
             - seedNode
