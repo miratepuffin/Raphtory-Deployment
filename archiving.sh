@@ -20,6 +20,16 @@ function remove() {
     docker stack remove raphtory
 }
 
+function serviceLog() {
+  if [ ! -d logs ]; then mkdir logs; fi
+  name="$1_$2_$3"
+  mkdir "logs/$name"
+  docker service logs raphtory_updater > "logs/$name/updater"
+  docker service logs raphtory_router > "logs/$name/router"
+  docker service logs raphtory_watchDog > "logs/$name/watchDog"
+  docker service logs raphtory_seedNode > "logs/$name/seedNode"
+  docker service logs raphtory_partitionManager > "logs/$name/partitionManager"
+}
 
 
 function setup_workers() {
@@ -49,6 +59,7 @@ function run() {
     poll
     date
     echo "Removing cluster in 30 seconds as dead letters > 500"
+    serviceLog $1 $4 $5
     sleep 30
     remove
     sleep 180
