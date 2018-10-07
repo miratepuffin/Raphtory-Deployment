@@ -23,6 +23,7 @@ function remove() {
 function serviceLog() {
   if [ ! -d logs ]; then mkdir logs; fi
   name="$1_$2_$3"
+  echo $name
   mkdir "logs/$name"
   docker service logs raphtory_updater > "logs/$name/updater"
   docker service logs raphtory_router > "logs/$name/router"
@@ -67,20 +68,21 @@ function run() {
 
 remove
 run 1 1000 1000000 false false
-run 2 1000 1000000 false false
-run 4 1000 1000000 false false
-run 8 1000 1000000 false false
-run 12 1000 1000000 false false
-
-
 run 1 1000 1000000 true false
-run 2 1000 1000000 true false
-run 4 1000 1000000 true false
-run 8 1000 1000000 true false
-run 12 1000 1000000 true false
-
 run 1 1000 1000000 true true
+
+run 2 1000 1000000 false false
+run 2 1000 1000000 true false
 run 2 1000 1000000 true true
+
+run 4 1000 1000000 false false
+run 4 1000 1000000 true false
 run 4 1000 1000000 true true
+
+run 8 1000 1000000 false false
+run 8 1000 1000000 true false
 run 8 1000 1000000 true true
+
+run 12 1000 1000000 false false
+run 12 1000 1000000 true false
 run 12 1000 1000000 true true
