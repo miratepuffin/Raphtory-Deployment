@@ -34,7 +34,7 @@ function serviceLog() {
 
 
 function setup_workers() {
-    cp EnvExamples/windowing_dotenv.example .env
+    cp EnvExamples/archivist_dotenv.example .env
 
     for i in $(cat nodes.list | head -n $1); do
         docker node update --label-add raphtoryrole=mainjob $i
