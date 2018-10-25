@@ -18,11 +18,14 @@ function poll() {
 function remove() {
     rm -rf .env
     docker stack remove raphtory
+    echo "Pruning cluster"
+    ssh root@studoop './docker-scripts/prune.sh' >  /dev/null
+    echo "Pruning complete"
 }
 
 function serviceLog() {
   if [ ! -d logs ]; then mkdir logs; fi
-  name="$1_$2_$3"
+  name="$1_$2_$3_$4"
   echo $name
   mkdir "logs/$name"
   docker service logs raphtory_updater > "logs/$name/updater"
@@ -34,7 +37,7 @@ function serviceLog() {
 
 
 function setup_workers() {
-    cp EnvExamples/windowing_dotenv.example .env
+    cp EnvExamples/archivist_dotenv.example .env
 
     for i in $(cat nodes.list | head -n $1); do
         docker node update --label-add raphtoryrole=mainjob $i
@@ -60,16 +63,16 @@ function run() {
     poll
     date
     echo "Removing cluster in 30 seconds as dead letters > 500"
-    serviceLog $1 $4 $5
+    serviceLog $1 $4 $5 time
     sleep 30
     remove
     sleep 180
 }
 
 remove
+run 1 1000 1000000 true true
 run 1 1000 1000000 false false
 run 1 1000 1000000 true false
-run 1 1000 1000000 true true
 
 run 2 1000 1000000 false false
 run 2 1000 1000000 true false

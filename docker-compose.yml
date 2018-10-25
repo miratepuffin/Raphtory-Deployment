@@ -24,15 +24,6 @@ services:
                 constraints:
                     - node.labels.raphtoryrole==prometheus
 
-    zooKeeper:
-         image: miratepuffin/raphtory-zookeeper
-         deploy:
-             endpoint_mode: vip
-             replicas: 1
-             placement:
-                 constraints:
-                    - node.labels.raphtoryrole==setupjobs
-
     #### seedSetup ####
     seedNode:
         image: miratepuffin/raphtory:ben
@@ -78,7 +69,9 @@ services:
             placement:
                 constraints:
                     - node.labels.raphtoryrole==mainjob
-
+            resources:
+                limits:
+                    memory: 20G
     router:
          image: miratepuffin/raphtory:ben
          depends_on:
