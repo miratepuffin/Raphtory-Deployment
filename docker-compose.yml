@@ -60,6 +60,8 @@ services:
             - seedNode
             - watchDog
             - zooKeeper
+        ports:
+            - 8888:9090    
         command: env-setter.sh partitionManager
         env_file: .env
         deploy:
