@@ -65,9 +65,9 @@ services:
             placement:
                 constraints:
                     - node.labels.raphtoryrole==mainjob
-            resources:
-                limits:
-                    memory: 20G
+  #          resources:
+  #              limits:
+  #                  memory: 20G
     router:
          image: miratepuffin/raphtory:ben
          depends_on:
