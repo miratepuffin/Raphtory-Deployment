@@ -27,8 +27,6 @@ services:
     #### seedSetup ####
     seedNode:
         image: miratepuffin/raphtory:ben
-        depends_on:
-              - zooKeeper
         command: env-setter.sh seedNode
         env_file: .env
         deploy:
@@ -42,7 +40,6 @@ services:
         image: miratepuffin/raphtory:ben
         depends_on:
             - seedNode
-            - zooKeeper
         command: env-setter.sh clusterUp
         env_file: .env
         deploy:
@@ -59,9 +56,6 @@ services:
         depends_on:
             - seedNode
             - watchDog
-            - zooKeeper
-        ports:
-            - 8888:9090    
         command: env-setter.sh partitionManager
         env_file: .env
         deploy:
@@ -77,7 +71,6 @@ services:
     router:
          image: miratepuffin/raphtory:ben
          depends_on:
-            - zooKeeper
             - seedNode
             - watchDog
 
@@ -97,7 +90,6 @@ services:
     updater:
         image: miratepuffin/raphtory:ben
         depends_on:
-            - zooKeeper
             - seedNode
             - watchDog
         command: env-setter.sh updater
@@ -119,7 +111,6 @@ services:
 #            - watchDog
 #            - partitionManager
 #            - router
-#            - zooKeeper
 #        command: env-setter.sh liveAnalysis
 #        env_file: .env
 #        deploy:
