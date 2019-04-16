@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function deploy {
-    docker stack deploy raphtory --compose-file docker-compose0local.yml
+    docker stack deploy raphtory --compose-file docker-compose-local.yml
 }
 
 function poll() {
@@ -28,7 +28,6 @@ function serviceLog() {
 
 function setup_workers() {
     cp EnvExamples/archivist_dotenv.example .env
-
     echo "PARTITION_MIN=$1" >> .env
     echo "ROUTER_MIN=$1" >> .env
     echo "UPDATES_FREQ=$2" >> .env
