@@ -37,7 +37,7 @@ function serviceLog() {
 
 
 function setup_workers() {
-    cp EnvExamples/archivist_dotenv.example .env
+    cp EnvExamples/gab_dotenv.example .env
 
     for i in $(cat nodes.list | head -n $1); do
         docker node update --label-add raphtoryrole=mainjob $i
@@ -70,22 +70,4 @@ function run() {
 }
 
 remove
-run 1 1000 1000000 true true
-run 1 1000 1000000 false false
-run 1 1000 1000000 true false
-
-run 2 1000 1000000 false false
-run 2 1000 1000000 true false
-run 2 1000 1000000 true true
-
-run 4 1000 1000000 false false
-run 4 1000 1000000 true false
-run 4 1000 1000000 true true
-
-run 8 1000 1000000 false false
-run 8 1000 1000000 true false
-run 8 1000 1000000 true true
-
-run 12 1000 1000000 false false
-run 12 1000 1000000 true false
-run 12 1000 1000000 true true
+run 10 1000 1000000 true true
