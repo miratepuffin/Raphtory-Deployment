@@ -40,7 +40,7 @@ function setup_workers() {
     cp EnvExamples/archivist_dotenv.example .env
 
     for i in $(cat routers.list | head -n $1); do
-        docker node update --label-add raphtoryrole=routers $i
+        docker node update --label-add raphtoryrole=router $i
     done
 
 
