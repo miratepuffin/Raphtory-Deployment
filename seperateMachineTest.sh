@@ -39,7 +39,7 @@ function serviceLog() {
 function setup_workers() {
     cp EnvExamples/archivist_dotenv.example .env
 
-    for i in $(cat routers.list | head -n $1); do
+    for i in $(cat routers.list | head -n 4); do
         docker node update --label-add raphtoryrole=router $i
     done
 
@@ -75,22 +75,22 @@ function run() {
 }
 
 remove
-run 1 1000 1000000 true true
-run 1 1000 1000000 false false
-run 1 1000 1000000 true false
+run 1 10000 1000000 true true
+run 1 10000 1000000 false false
+run 1 10000 1000000 true false
 
-run 2 1000 1000000 false false
-run 2 1000 1000000 true false
-run 2 1000 1000000 true true
+run 2 10000 1000000 false false
+run 2 10000 1000000 true false
+run 2 10000 1000000 true true
 
-run 4 1000 1000000 false false
-run 4 1000 1000000 true false
-run 4 1000 1000000 true true
+run 4 10000 1000000 false false
+run 4 10000 1000000 true false
+run 4 10000 1000000 true true
 
-run 8 1000 1000000 false false
-run 8 1000 1000000 true false
-run 8 1000 1000000 true true
+run 8 10000 1000000 false false
+run 8 10000 1000000 true false
+run 8 10000 1000000 true true
 
-run 12 1000 1000000 false false
-run 12 1000 1000000 true false
-run 12 1000 1000000 true true
+run 10 10000 1000000 false false
+run 10 10000 1000000 true false
+run 10 10000 1000000 true true
