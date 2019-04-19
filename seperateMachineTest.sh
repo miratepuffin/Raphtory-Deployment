@@ -54,43 +54,38 @@ function setup_workers() {
     echo "ROUTER_MIN=$1" >> .env
     echo "UPDATES_FREQ=$2" >> .env
     echo "ENTITY_POOL=$3" >> .env
-    echo "COMPRESSING=$4" >> .env
-    echo "SAVING=$5" >> .env
+    echo "ARCHIVING" =$4 >> .env
+    echo "COMPRESSING=$5" >> .env
+    echo "SAVING=$6" >> .env
 }
 
 function run() {
     date
     echo "$1 PM/R"
     clean_labels
-    setup_workers $1 $2 $3 $4 $5
+    setup_workers $1 $2 $3 $4 $5 $6
     deploy
     sleep 180
     poll
     date
     echo "Removing cluster in 30 seconds as dead letters > 500"
-    serviceLog $1 $4 $5 time
+    serviceLog $1 $4 $5 $6 time
     sleep 30
     remove
     sleep 180
 }
 
 remove
-run 1 10000 1000000 true true
-run 1 10000 1000000 false false
-run 1 10000 1000000 true false
 
-run 2 10000 1000000 false false
-run 2 10000 1000000 true false
-run 2 10000 1000000 true true
+function grouprun() {
+  run $1 5000 1000000 false false false
+  run $1 5000 1000000 true false false
+  run $1 5000 1000000 true true false
+  run $1 5000 1000000 true true true
+}
 
-run 4 10000 1000000 false false
-run 4 10000 1000000 true false
-run 4 10000 1000000 true true
-
-run 8 10000 1000000 false false
-run 8 10000 1000000 true false
-run 8 10000 1000000 true true
-
-run 10 10000 1000000 false false
-run 10 10000 1000000 true false
-run 10 10000 1000000 true true
+grouprun 1
+grouprun 2
+grouprun 4
+grouprun 8
+grouprun 10
