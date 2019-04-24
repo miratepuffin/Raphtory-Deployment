@@ -22,14 +22,8 @@ services:
             endpoint_mode: vip
             replicas: 1
 
-    zooKeeper:
-         image: miratepuffin/raphtory-zookeeper
-         deploy:
-             endpoint_mode: vip
-             replicas: 1
-
     seedNode:
-        image: miratepuffin/raphtory:ben
+        image: miratepuffin/raphtory:dantes
         ports:
             - 88:11600
         depends_on:
