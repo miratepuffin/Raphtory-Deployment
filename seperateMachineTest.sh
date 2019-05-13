@@ -11,6 +11,10 @@ function deploy {
     docker stack deploy raphtory --compose-file docker-compose-seperate.yml
 }
 
+function deployPrometheus {
+  docker stack deploy raphtory-prometheus --compose-file docker-compose-seperate.yml
+}
+
 function poll() {
     python jsonparser.py
 }
@@ -84,6 +88,7 @@ function grouprun() {
   run $1 5000 1000000 true true true
 }
 
+deployPrometheus
 grouprun 1
 grouprun 2
 grouprun 4

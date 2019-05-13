@@ -1,5 +1,11 @@
 version: '3.3'
 
+networks:
+  default:
+    ipam:
+      config:
+        - subnet: 10.0.0.0/24
+
 services:
     #### Monitoring front-end ####
     prometheus:
@@ -14,8 +20,10 @@ services:
         deploy:
             endpoint_mode: vip
             replicas: 1
+            placement:
+                constraints:
+                    - node.labels.raphtoryrole==prometheus
 
-    #           - HOST_IP=raphtory_rest_1
 
 volumes:
     prometheus_data:
