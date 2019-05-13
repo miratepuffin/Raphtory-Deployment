@@ -55,10 +55,10 @@ function setup_workers() {
     docker node update --label-add raphtoryrole=setupjobs moon15
 
     echo "PARTITION_MIN=$1" >> .env
-    echo "ROUTER_MIN=$1" >> .env
+    echo "ROUTER_MIN=4" >> .env
     echo "UPDATES_FREQ=$2" >> .env
     echo "ENTITY_POOL=$3" >> .env
-    echo "ARCHIVING" =$4 >> .env
+    echo "ARCHIVING=$4" >> .env
     echo "COMPRESSING=$5" >> .env
     echo "SAVING=$6" >> .env
 }
