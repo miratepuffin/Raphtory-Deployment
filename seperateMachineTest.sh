@@ -11,6 +11,11 @@ function deploy {
     docker stack deploy raphtory --compose-file docker-compose-seperate.yml
 }
 
+function deployPrometheus {
+  cp EnvExamples/archivist_dotenv.example .env
+  docker stack deploy raphtory-prometheus --compose-file docker-compose-prometheus.yml
+}
+
 function poll() {
     python jsonparser.py
 }
@@ -84,5 +89,6 @@ function grouprun() {
   run $1 5000 1000000 true true true
 }
 
+deployPrometheus
 grouprun 2
 grouprun 10
