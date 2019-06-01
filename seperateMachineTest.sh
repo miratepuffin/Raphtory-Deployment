@@ -11,6 +11,11 @@ function deploy {
     docker stack deploy raphtory --compose-file docker-compose-seperate.yml
 }
 
+function deployPrometheus {
+  cp EnvExamples/archivist_dotenv.example .env
+  docker stack deploy raphtory-prometheus --compose-file docker-compose-prometheus.yml
+}
+
 function poll() {
     python jsonparser.py
 }
@@ -51,7 +56,7 @@ function setup_workers() {
     docker node update --label-add raphtoryrole=setupjobs moon15
 
     echo "PARTITION_MIN=$1" >> .env
-    echo "ROUTER_MIN=$1" >> .env
+    echo "ROUTER_MIN=4" >> .env
     echo "UPDATES_FREQ=$2" >> .env
     echo "ENTITY_POOL=$3" >> .env
     echo "ARCHIVING=$4" >> .env
@@ -78,14 +83,12 @@ function run() {
 remove
 
 function grouprun() {
-  run $1 5000 1000000 false false false
+  run $1 5000 1000000 true false false
   run $1 5000 1000000 true false false
   run $1 5000 1000000 true true false
   run $1 5000 1000000 true true true
 }
 
-grouprun 1
+deployPrometheus
 grouprun 2
-grouprun 4
-grouprun 8
 grouprun 10
