@@ -1,0 +1,36 @@
+raphtory_seedNode.1.opj59c7voymo@moon15    | Starting up...
+raphtory_seedNode.1.opj59c7voymo@moon15    | /////  ENV SET //////
+raphtory_seedNode.1.opj59c7voymo@moon15    | ZOOKEEPER    = zooKeeper:2181
+raphtory_seedNode.1.opj59c7voymo@moon15    | HOST_IP      = 10.0.0.20
+raphtory_seedNode.1.opj59c7voymo@moon15    | HOSTNAME     = c50c378e2c96
+raphtory_seedNode.1.opj59c7voymo@moon15    | /////////////////////
+raphtory_seedNode.1.opj59c7voymo@moon15    | No Java opts
+raphtory_seedNode.1.opj59c7voymo@moon15    | Current java options: [-javaagent:/opt/docker/bin/../aspectjweaver/aspectjweaver-1.8.13.jar, -Dorg.aspectj.tracing.factory=default]
+raphtory_seedNode.1.opj59c7voymo@moon15    | Creating seed node
+raphtory_seedNode.1.opj59c7voymo@moon15    | I AM AT 10.0.0.20:1600
+raphtory_seedNode.1.opj59c7voymo@moon15    | ------ 886a853b-7bf0-4ab1-8e70-185ef130e26c ------
+raphtory_seedNode.1.opj59c7voymo@moon15    | Binding core internally on 10.0.0.20 port 1600
+raphtory_seedNode.1.opj59c7voymo@moon15    | Binding core externally on 10.0.0.20 port 1600
+raphtory_seedNode.1.opj59c7voymo@moon15    | Seeds: List(Quoted("akka.tcp://dockerexp@10.0.0.20:1600"))
+raphtory_seedNode.1.opj59c7voymo@moon15    | Roles: List()
+raphtory_seedNode.1.opj59c7voymo@moon15    | My Akka URI: akka.tcp://dockerexp@10.0.0.20:1600
+raphtory_seedNode.1.opj59c7voymo@moon15    | Bleep Bloop I am a seed node
+raphtory_seedNode.1.opj59c7voymo@moon15    | == Starting cluster listener 2 ==
+raphtory_seedNode.1.opj59c7voymo@moon15    | --1-- Member(address = akka.tcp://dockerexp@10.0.0.20:1600, status = Up)
+raphtory_seedNode.1.opj59c7voymo@moon15    | --1-- Member(address = akka.tcp://dockerexp@10.0.0.22:1600, status = Up)
+raphtory_seedNode.1.opj59c7voymo@moon15    | --1-- Member(address = akka.tcp://dockerexp@10.0.0.25:1600, status = Up)
+raphtory_seedNode.1.opj59c7voymo@moon15    | --1-- Member(address = akka.tcp://dockerexp@10.0.0.27:1600, status = Up)
+raphtory_seedNode.1.opj59c7voymo@moon15    | --1-- Member(address = akka.tcp://dockerexp@10.0.0.28:1600, status = Up)
+raphtory_seedNode.1.opj59c7voymo@moon15    | --1-- Member(address = akka.tcp://dockerexp@10.0.0.26:1600, status = Up)
+raphtory_seedNode.1.opj59c7voymo@moon15    | --1-- Member(address = akka.tcp://dockerexp@10.0.0.23:1600, status = Up)
+raphtory_seedNode.1.opj59c7voymo@moon15    | --1-- Member(address = akka.tcp://dockerexp@10.0.0.24:1600, status = Up)
+raphtory_seedNode.1.opj59c7voymo@moon15    | --1-- Member(address = akka.tcp://dockerexp@10.0.0.30:1600, status = Up)
+raphtory_seedNode.1.opj59c7voymo@moon15    | --3--Member(address = akka.tcp://dockerexp@10.0.0.24:1600, status = Up)
+raphtory_seedNode.1.opj59c7voymo@moon15    | --3--Member(address = akka.tcp://dockerexp@10.0.0.24:1600, status = Up)
+raphtory_seedNode.1.opj59c7voymo@moon15    | --3--Member(address = akka.tcp://dockerexp@10.0.0.23:1600, status = Up)
+raphtory_seedNode.1.opj59c7voymo@moon15    | --3--Member(address = akka.tcp://dockerexp@10.0.0.30:1600, status = Up)
+raphtory_seedNode.1.opj59c7voymo@moon15    | --3--Member(address = akka.tcp://dockerexp@10.0.0.26:1600, status = Up)
+raphtory_seedNode.1.opj59c7voymo@moon15    | --3--Member(address = akka.tcp://dockerexp@10.0.0.28:1600, status = Up)
+raphtory_seedNode.1.opj59c7voymo@moon15    | --3--Member(address = akka.tcp://dockerexp@10.0.0.22:1600, status = Up)
+raphtory_seedNode.1.opj59c7voymo@moon15    | --3--Member(address = akka.tcp://dockerexp@10.0.0.27:1600, status = Up)
+raphtory_seedNode.1.opj59c7voymo@moon15    | --3--Member(address = akka.tcp://dockerexp@10.0.0.25:1600, status = Up)

@@ -1,0 +1,3594 @@
+Pruning cluster
+Pruning complete
+Updating service raphtory-prometheus_prometheus (id: ho8zxv5pit5i7ycdnfr9f4sjw)
+Fri 31 May 16:29:35 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Fri 31 May 16:45:08 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_false_false_false_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 16:48:44 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Fri 31 May 17:04:06 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_false_false_false_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 17:07:42 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Fri 31 May 17:23:04 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_false_false_false_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 17:26:40 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Fri 31 May 17:42:10 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_false_false_false_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 17:45:46 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Fri 31 May 18:01:10 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_false_false_false_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 18:04:46 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Fri 31 May 18:18:02 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_true_false_false_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 18:21:38 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Fri 31 May 18:36:02 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_true_false_false_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 18:39:43 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Fri 31 May 18:54:06 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_true_false_false_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 18:57:42 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Fri 31 May 19:11:05 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_true_false_false_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 19:14:41 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Fri 31 May 19:29:05 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_true_false_false_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 19:32:40 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Fri 31 May 19:45:04 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_true_true_false_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 19:48:40 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Fri 31 May 20:02:03 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_true_true_false_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 20:05:39 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Fri 31 May 20:18:12 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_true_true_false_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 20:21:48 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Fri 31 May 20:34:02 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_true_true_false_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 20:37:37 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Fri 31 May 20:50:01 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_true_true_false_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 20:53:37 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Fri 31 May 21:09:11 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_true_true_true_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 21:12:47 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Fri 31 May 21:28:10 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_true_true_true_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 21:31:46 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Fri 31 May 21:47:00 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_true_true_true_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 21:50:37 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Fri 31 May 22:02:10 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_true_true_true_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 22:05:46 BST 2019
+1 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Fri 31 May 22:21:09 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+1_true_true_true_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 22:24:46 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Fri 31 May 22:42:01 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_false_false_false_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 22:45:37 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Fri 31 May 23:03:01 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_false_false_false_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 23:06:37 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Fri 31 May 23:24:05 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_false_false_false_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 23:27:41 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Fri 31 May 23:45:05 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_false_false_false_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Fri 31 May 23:48:41 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Sat  1 Jun 00:06:05 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_false_false_false_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 00:09:41 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Sat  1 Jun 00:25:05 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_true_false_false_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 00:28:41 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sat  1 Jun 00:45:04 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_true_false_false_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 00:48:40 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Sat  1 Jun 01:03:14 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_true_false_false_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 01:06:50 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sat  1 Jun 01:22:04 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_true_false_false_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 01:25:39 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Sat  1 Jun 01:42:04 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_true_false_false_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 01:45:40 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Sat  1 Jun 02:00:04 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_true_true_false_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 02:03:39 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Sat  1 Jun 02:19:03 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_true_true_false_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 02:22:39 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sat  1 Jun 02:37:13 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_true_true_false_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 02:40:48 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Sat  1 Jun 02:56:02 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_true_true_false_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 02:59:38 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Sat  1 Jun 03:14:12 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_true_true_false_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 03:17:48 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Sat  1 Jun 03:36:03 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_true_true_true_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 03:39:51 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Sat  1 Jun 03:58:07 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_true_true_true_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 04:01:42 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Sat  1 Jun 04:18:06 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_true_true_true_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 04:21:43 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sat  1 Jun 04:39:07 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_true_true_true_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 04:42:43 BST 2019
+2 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Sat  1 Jun 05:01:07 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+2_true_true_true_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 05:04:44 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Sat  1 Jun 05:26:10 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_false_false_false_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 05:29:46 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Sat  1 Jun 05:51:01 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_false_false_false_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 05:54:36 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Sat  1 Jun 06:16:11 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_false_false_false_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 06:19:52 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sat  1 Jun 06:41:07 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_false_false_false_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 06:44:43 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sat  1 Jun 07:06:07 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_false_false_false_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 07:09:43 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Sat  1 Jun 07:29:08 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_true_false_false_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 07:32:45 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Sat  1 Jun 07:53:09 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_true_false_false_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 07:56:45 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Sat  1 Jun 08:16:09 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_true_false_false_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 08:19:45 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sat  1 Jun 08:40:09 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_true_false_false_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 08:43:45 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Sat  1 Jun 09:05:09 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_true_false_false_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 09:08:45 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Sat  1 Jun 09:27:09 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_true_true_false_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 09:30:45 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Sat  1 Jun 09:48:09 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_true_true_false_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 09:51:45 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sat  1 Jun 10:10:10 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_true_true_false_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 10:13:46 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sat  1 Jun 10:32:10 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_true_true_false_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 10:35:46 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sat  1 Jun 10:53:00 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_true_true_false_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 10:56:36 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Sat  1 Jun 11:15:10 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_true_true_true_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 11:18:49 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Sat  1 Jun 11:37:03 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_true_true_true_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 11:40:41 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Sat  1 Jun 11:59:05 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_true_true_true_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 12:02:42 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Sat  1 Jun 12:21:07 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_true_true_true_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 12:24:44 BST 2019
+4 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Sat  1 Jun 12:38:08 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+4_true_true_true_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 12:41:45 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Sat  1 Jun 13:09:11 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_false_false_false_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 13:12:48 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Sat  1 Jun 13:40:03 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_false_false_false_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 13:43:40 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Sat  1 Jun 14:11:06 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_false_false_false_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 14:14:43 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Sat  1 Jun 14:42:08 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_false_false_false_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 14:45:45 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Sat  1 Jun 15:13:01 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_false_false_false_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 15:16:37 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Sat  1 Jun 15:41:03 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_true_false_false_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 15:44:39 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Sat  1 Jun 16:09:04 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_true_false_false_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 16:12:40 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sat  1 Jun 16:37:05 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_true_false_false_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 16:40:42 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Sat  1 Jun 17:06:07 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_true_false_false_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 17:09:43 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Sat  1 Jun 17:34:08 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_true_false_false_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 17:37:45 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sat  1 Jun 18:00:10 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_true_true_false_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 18:03:46 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sat  1 Jun 18:26:02 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_true_true_false_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 18:29:38 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sat  1 Jun 18:53:03 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_true_true_false_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 18:56:39 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Sat  1 Jun 19:20:05 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_true_true_false_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 19:23:41 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Sat  1 Jun 19:46:06 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_true_true_false_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 19:49:42 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Sat  1 Jun 20:06:06 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_true_true_true_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 20:09:43 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Sat  1 Jun 20:32:08 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_true_true_true_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 20:35:48 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sat  1 Jun 20:58:03 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_true_true_true_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 21:01:41 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Sat  1 Jun 21:25:06 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_true_true_true_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 21:28:46 BST 2019
+8 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Sat  1 Jun 21:52:10 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+8_true_true_true_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 21:55:49 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Sat  1 Jun 22:25:06 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_false_false_false_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 22:28:43 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Sat  1 Jun 22:58:09 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_false_false_false_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 23:01:46 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Sat  1 Jun 23:31:03 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_false_false_false_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sat  1 Jun 23:34:40 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Sun  2 Jun 00:04:06 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_false_false_false_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sun  2 Jun 00:07:43 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Sun  2 Jun 00:37:08 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_false_false_false_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sun  2 Jun 00:40:46 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sun  2 Jun 01:08:01 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_true_false_false_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sun  2 Jun 01:11:37 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Sun  2 Jun 01:38:03 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_true_false_false_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sun  2 Jun 01:41:40 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Sun  2 Jun 02:08:05 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_true_false_false_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sun  2 Jun 02:11:42 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sun  2 Jun 02:38:08 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_true_false_false_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sun  2 Jun 02:41:44 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Sun  2 Jun 03:09:00 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_true_false_false_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sun  2 Jun 03:12:36 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Sun  2 Jun 03:37:02 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_true_true_false_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sun  2 Jun 03:40:38 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Sun  2 Jun 04:05:03 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_true_true_false_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sun  2 Jun 04:08:39 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Sun  2 Jun 04:33:05 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_true_true_false_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sun  2 Jun 04:36:41 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Sun  2 Jun 04:56:06 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_true_true_false_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sun  2 Jun 04:59:42 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Sun  2 Jun 05:24:09 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_true_true_false_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sun  2 Jun 05:27:44 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Sun  2 Jun 05:53:00 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_true_true_true_1
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sun  2 Jun 05:56:43 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Sun  2 Jun 06:20:08 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_true_true_true_2
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sun  2 Jun 06:23:47 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sun  2 Jun 06:48:03 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_true_true_true_3
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sun  2 Jun 06:51:43 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_router
+Creating service raphtory_updater
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Sun  2 Jun 07:15:09 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_true_true_true_4
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete
+Sun  2 Jun 07:18:47 BST 2019
+10 PM/R
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon01.eecs.qmul.ac.uk
+moon02.eecs.qmul.ac.uk
+moon03.eecs.qmul.ac.uk
+moon04.eecs.qmul.ac.uk
+moon05.eecs.qmul.ac.uk
+moon06.eecs.qmul.ac.uk
+moon07.eecs.qmul.ac.uk
+moon08.eecs.qmul.ac.uk
+moon09.eecs.qmul.ac.uk
+moon10.eecs.qmul.ac.uk
+moon11.eecs.qmul.ac.uk
+moon12.eecs.qmul.ac.uk
+moon13.eecs.qmul.ac.uk
+moon14.eecs.qmul.ac.uk
+moon15
+Creating service raphtory_seedNode
+Creating service raphtory_watchDog
+Creating service raphtory_partitionManager
+Creating service raphtory_router
+Creating service raphtory_updater
+Sun  2 Jun 07:42:04 BST 2019
+Removing cluster in 30 seconds as dead letters > 500
+10_true_true_true_5
+Removing service raphtory_partitionManager
+Removing service raphtory_router
+Removing service raphtory_seedNode
+Removing service raphtory_updater
+Removing service raphtory_watchDog
+Pruning cluster
+Pruning complete

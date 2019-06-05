@@ -30,7 +30,7 @@ function remove() {
 
 function serviceLog() {
   if [ ! -d logs ]; then mkdir logs; fi
-  name="$1_$2_$3_$4"
+  name="$1_$2_$3_$4_$5"
   echo $name
   mkdir "logs/$name"
   docker service logs raphtory_updater > "logs/$name/updater"
@@ -74,7 +74,7 @@ function run() {
     poll
     date
     echo "Removing cluster in 30 seconds as dead letters > 500"
-    serviceLog $1 $4 $5 $6 time
+    serviceLog $1 $4 $5 $6 $7 time
     sleep 30
     remove
     sleep 180
@@ -83,12 +83,31 @@ function run() {
 remove
 
 function grouprun() {
-  run $1 5000 1000000 true false false
-  run $1 5000 1000000 true false false
-  run $1 5000 1000000 true true false
-  run $1 5000 1000000 true true true
+  run $1 5000 1000000 false false false 1
+  run $1 5000 1000000 false false false 2
+  run $1 5000 1000000 false false false 3
+  run $1 5000 1000000 false false false 4
+  run $1 5000 1000000 false false false 5
+  run $1 5000 1000000 true false false 1
+  run $1 5000 1000000 true false false 2
+  run $1 5000 1000000 true false false 3
+  run $1 5000 1000000 true false false 4
+  run $1 5000 1000000 true false false 5
+  run $1 5000 1000000 true true false 1
+  run $1 5000 1000000 true true false 2
+  run $1 5000 1000000 true true false 3
+  run $1 5000 1000000 true true false 4
+  run $1 5000 1000000 true true false 5
+  run $1 5000 1000000 true true true 1
+  run $1 5000 1000000 true true true 2
+  run $1 5000 1000000 true true true 3
+  run $1 5000 1000000 true true true 4
+  run $1 5000 1000000 true true true 5
 }
 
 deployPrometheus
+grouprun 1
 grouprun 2
+grouprun 4
+grouprun 8
 grouprun 10
