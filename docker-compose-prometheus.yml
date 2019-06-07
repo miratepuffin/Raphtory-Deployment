@@ -24,5 +24,6 @@ services:
                 constraints:
                     - node.labels.raphtoryrole==prometheus
 
+
 volumes:
     prometheus_data:
