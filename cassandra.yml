@@ -1,0 +1,24 @@
+version: "3.3"
+services:
+  cassandra:
+    deploy:
+      replicas: 1
+      placement:
+          constraints:
+              - node.labels.raphtoryrole==cassandra
+    entrypoint:
+    - "sh"
+    - "-c"
+    - export CASSANDRA_SEEDS=$$(nrOfTasks=`getent hosts tasks.cassandra | wc -l` ;
+      many=`getent hosts tasks.cassandra | awk '{print $$1}' | sed "/$$(hostname --ip-address)/d"
+      | paste -d, -s -` ; printf '%s' $$( [ $${nrOfTasks} -gt 1 ] && echo $${many} ||
+      echo "$$(hostname --ip-address)" )) ; /docker-entrypoint.sh cassandra -f
+    environment:
+      HEAP_NEWSIZE: 12M
+      MAX_HEAP_SIZE: 64M
+    image: cassandra
+
+networks:
+    default:
+        external:
+            name: raphtory-prometheus_default
