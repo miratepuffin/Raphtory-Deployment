@@ -1,0 +1,39 @@
+version: '3'
+services:
+  cassandra-1:
+    image: cassandra
+    deploy:
+      restart_policy:
+        condition: on-failure
+        max_attempts: 3
+        window: 120s
+      placement:
+        constraints:
+        - node.labels.db==cassandra1
+    environment:
+      CASSANDRA_BROADCAST_ADDRESS: cassandra-1
+    ports:
+    - "7000"
+
+  cassandra-2:
+    image: cassandra
+    deploy:
+      restart_policy:
+        condition: on-failure
+        max_attempts: 3
+        window: 120s
+      placement:
+        constraints:
+        - node.labels.db==cassandra2
+    environment:
+      CASSANDRA_BROADCAST_ADDRESS: cassandra-2
+      CASSANDRA_SEEDS: cassandra-1
+    depends_on:
+      - cassandra-1
+    ports:
+    - "7000"
+
+networks:
+    default:
+        external:
+            name: raphtory-prometheus_default
