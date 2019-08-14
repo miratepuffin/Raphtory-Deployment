@@ -12,12 +12,14 @@ function deploy {
 }
 
 function deployPrometheus {
-  cp EnvExamples/archivist_dotenv.example .env
+  cp EnvExamples/set_dotenv.example .env
   docker stack deploy raphtory-prometheus --compose-file docker-compose-prometheus.yml
 }
 
 function poll() {
-    python jsonparser.py
+    echo "sleeping 1 hour"
+    sleep 3600
+    #python jsonparser.py
 }
 
 function remove() {
@@ -42,7 +44,7 @@ function serviceLog() {
 
 
 function setup_workers() {
-    cp EnvExamples/archivist_dotenv.example .env
+    cp EnvExamples/set_dotenv.example .env
 
     for i in $(cat routers.list | head -n 4); do
         docker node update --label-add raphtoryrole=router $i
@@ -83,15 +85,10 @@ function run() {
 remove
 
 function grouprun() {
-  run $1 5000 1000000 true true true 1
-  run $1 5000 1000000 true true true 2
-  run $1 5000 1000000 true true true 3
-  run $1 5000 1000000 true true true 4
-  run $1 5000 1000000 true true true 5
+  run $1 10000 1000000 false false false single
+  run $1 10000 1000000 true false false single
+  run $1 10000 1000000 true true false single
+  run $1 10000 1000000 true true true single
 }
 
-deployPrometheus
 grouprun 8
-grouprun 4
-grouprun 2
-grouprun 1

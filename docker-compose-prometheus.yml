@@ -10,7 +10,7 @@ services:
     #### Monitoring front-end ####
     prometheus:
         build: prometheus/
-        image: miratepuffin/raphtory_prometheus
+        image: miratepuffin/raphtory_prometheus:test
         ports:
             - 8888:9090
         volumes:

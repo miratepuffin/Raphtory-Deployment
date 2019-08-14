@@ -89,9 +89,6 @@ function grouprun() {
   run $1 5000 1000000 true true true 4
   run $1 5000 1000000 true true true 5
 }
-
+	
 deployPrometheus
-grouprun 8
-grouprun 4
-grouprun 2
-grouprun 1
+grouprun 10

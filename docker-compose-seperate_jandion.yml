@@ -9,7 +9,7 @@ networks:
 services:
     #### seedSetup ####
     seedNode:
-        image: miratepuffin/raphtory:ben
+        image: miratepuffin/raphtory:jandion
         command: env-setter.sh seedNode
         env_file: .env
         deploy:
@@ -20,7 +20,7 @@ services:
                     - node.labels.raphtoryrole==setupjobs
 
     watchDog:
-        image: miratepuffin/raphtory:ben
+        image: miratepuffin/raphtory:jandion
         depends_on:
             - seedNode
         command: env-setter.sh clusterUp
@@ -35,7 +35,7 @@ services:
 
     #### Machines Setup ####
     partitionManager:
-        image: miratepuffin/raphtory:ben
+        image: miratepuffin/raphtory:jandion
         depends_on:
             - seedNode
             - watchDog
@@ -52,7 +52,7 @@ services:
   #              limits:
   #                  memory: 20G
     router:
-         image: miratepuffin/raphtory:ben
+         image: miratepuffin/raphtory:jandion
          depends_on:
             - seedNode
             - watchDog
@@ -71,7 +71,7 @@ services:
 #                    cpus: '1'
 
     updater:
-        image: miratepuffin/raphtory:ben
+        image: miratepuffin/raphtory:jandion
         depends_on:
             - seedNode
             - watchDog
@@ -87,21 +87,21 @@ services:
 #            - ./redis:/etc/redis
 
 
-    lam:
-        image: miratepuffin/raphtory:ben
-        depends_on:
-            - seedNode
-            - watchDog
-            - partitionManager
-            - router
-        command: env-setter.sh liveAnalysis
-        env_file: .env
-        deploy:
-            endpoint_mode: vip
-            replicas: 1
-            placement:
-                constraints:
-                    - node.labels.raphtoryrole==setupjobs
+#    lam:
+#        image: miratepuffin/raphtory:bazar
+#        depends_on:
+#            - seedNode
+#            - watchDog
+#            - partitionManager
+#            - router
+#        command: env-setter.sh liveAnalysis
+#        env_file: .env
+#        deploy:
+#            endpoint_mode: vip
+#            replicas: 1
+#            placement:
+#                constraints:
+#                    - node.labels.raphtoryrole==setupjobs
 
 
 volumes:

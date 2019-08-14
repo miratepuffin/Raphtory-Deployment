@@ -9,6 +9,6 @@ ADD_ONLY_EDGE=false
 PROMETHEUS=true
 STDOUT_LOG=true
 LAMCLASS=com.raphtory.examples.bitcoin.actors.BitcoinLiveAnalysisManager
-ROUTERCLASS=com.raphtory.examples.bitcoin.actors.BitcoinRouter
+ROUTERCLASS=com.raphtory.examples.bitcoin.actors.BitcoinRaphtoryRouter
 UPDATERCLASS=com.raphtory.examples.bitcoin.actors.BitcoinExampleSpout
 PARTITIONINGCLASS=com.raphtory.examples.partitioning.LinearGreedy

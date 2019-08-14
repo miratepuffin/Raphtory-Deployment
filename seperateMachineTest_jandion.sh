@@ -8,11 +8,11 @@ function clean_labels() {
 }
 
 function deploy {
-    docker stack deploy raphtory --compose-file docker-compose-seperate.yml
+    docker stack deploy raphtory --compose-file docker-compose-seperate_jandion.yml
 }
 
 function deployPrometheus {
-  cp EnvExamples/archivist_dotenv.example .env
+  cp EnvExamples/bitcoin_read_dotenv.example .env
   docker stack deploy raphtory-prometheus --compose-file docker-compose-prometheus.yml
 }
 
@@ -42,7 +42,7 @@ function serviceLog() {
 
 
 function setup_workers() {
-    cp EnvExamples/archivist_dotenv.example .env
+    cp EnvExamples/bitcoin_read_dotenv.example .env
 
     for i in $(cat routers.list | head -n 4); do
         docker node update --label-add raphtoryrole=router $i
@@ -89,9 +89,6 @@ function grouprun() {
   run $1 5000 1000000 true true true 4
   run $1 5000 1000000 true true true 5
 }
-
+	
 deployPrometheus
-grouprun 8
-grouprun 4
-grouprun 2
 grouprun 1
