@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+    etherdeamon:
+       image: ethereum/client-go:stable
+       ports:
+         - 30303:30303
+         - 8545:8545
+       entrypoint:
+         - geth
+         - --cache
+         - "1024"
+         - --rpc
+         - --rpcaddr
+         - "0.0.0.0"
