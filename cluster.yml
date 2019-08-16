@@ -32,8 +32,6 @@ services:
                 constraints:
                     - node.labels.raphtoryrole==setupjobs
 
-
-    #### Machines Setup ####
     partitionManager:
         image: miratepuffin/raphtory:ben
         depends_on:
@@ -43,14 +41,11 @@ services:
         env_file: .env
         deploy:
             endpoint_mode: dnsrr
-            #replicas: 1 #$NUMBER_OF_PARTITIONS
             mode: global
             placement:
                 constraints:
                     - node.labels.raphtoryrole==partitionManager
-  #          resources:
-  #              limits:
-  #                  memory: 20G
+
     router:
          image: miratepuffin/raphtory:ben
          depends_on:
@@ -61,14 +56,10 @@ services:
          env_file: .env
          deploy:
             endpoint_mode: dnsrr
-            #replicas: 1
             mode: global
             placement:
                 constraints:
                   - node.labels.raphtoryrole==router
-#            resources:
-#                limits:
-#                    cpus: '1'
 
     updater:
         image: miratepuffin/raphtory:ben
@@ -82,27 +73,6 @@ services:
             placement:
                 constraints:
                     - node.labels.raphtoryrole==setupjobs
-#        volumes:
-#            - ./gab:/var/lib/redis
-#            - ./redis:/etc/redis
-
-
-    lam:
-        image: miratepuffin/raphtory:ben
-        depends_on:
-            - seedNode
-            - watchDog
-            - partitionManager
-            - router
-        command: env-setter.sh liveAnalysis
-        env_file: .env
-        deploy:
-            endpoint_mode: vip
-            replicas: 1
-            placement:
-                constraints:
-                    - node.labels.raphtoryrole==setupjobs
-
 
 volumes:
     prometheus_data:

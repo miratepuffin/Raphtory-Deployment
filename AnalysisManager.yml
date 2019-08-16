@@ -1,0 +1,19 @@
+version: '3.3'
+
+
+networks:
+    default:
+        external:
+            name: raphtory-prometheus_default
+
+services:
+    lam:
+        image: miratepuffin/raphtory:ben
+        command: env-setter.sh liveAnalysis
+        env_file: .env
+        deploy:
+            endpoint_mode: vip
+            replicas: 1
+            placement:
+                constraints:
+                    - node.labels.raphtoryrole==setupjobs

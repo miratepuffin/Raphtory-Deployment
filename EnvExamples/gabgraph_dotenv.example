@@ -5,13 +5,6 @@ ADD_ONLY_EDGE=false
 JAVA_OPTS=-XX:+UseConcMarkSweepGC -XX:+UseParNewGC -Xms20g -XX:NewRatio=3
 PROMETHEUS=true
 STDOUT_LOG=true
-LAMCLASS=com.raphtory.examples.GenericAlgorithms.ConnectedComponents.ConComLAM
 UPDATERCLASS=com.raphtory.examples.gabMining.actors.GabMiningSpout
-PARTITIONINGCLASS=com.raphtory.examples.partitioning.LinearGreedy
 ROUTERCLASS=com.raphtory.examples.gabMining.actors.GabMiningRouter
 RAMP_FLAG=true
-LAMTYPE=WAM
-START=1470801546000
-END=1471459626000
-JUMP=3600000
-WINDOW=86400000

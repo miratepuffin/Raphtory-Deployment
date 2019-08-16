@@ -2,18 +2,18 @@
 
 
 function clean_labels() {
-    for i in $(cat nodes.list | head -n 14); do
+    for i in $(cat nodelists/nodes.list | head -n 14); do
         docker node update --label-rm raphtoryrole $i
     done
 }
 
 function deploy {
-    docker stack deploy raphtory --compose-file docker-compose-seperate.yml
+    docker stack deploy raphtory --compose-file cluster.yml
 }
 
 function deployPrometheus {
   cp EnvExamples/gabgraph_dotenv.example .env
-  docker stack deploy raphtory-prometheus --compose-file docker-compose-prometheus.yml
+  docker stack deploy raphtory-prometheus --compose-file prometheus.yml
 }
 
 function poll() {
@@ -44,12 +44,12 @@ function serviceLog() {
 function setup_workers() {
     cp EnvExamples/gabgraph_dotenv.example .env
 
-    for i in $(cat routers.list | head -n 4); do
+    for i in $(cat nodelists/routers.list | head -n 4); do
         docker node update --label-add raphtoryrole=router $i
     done
 
 
-    for i in $(cat pm.list | head -n $1); do
+    for i in $(cat nodelists/pm.list | head -n $1); do
         docker node update --label-add raphtoryrole=partitionManager $i
     done
 
@@ -85,6 +85,6 @@ remove
 function grouprun() {
   run $1 5000 1000000 false false false 1
 }
-	
+
 deployPrometheus
 grouprun 8
