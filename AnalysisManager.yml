@@ -11,9 +11,13 @@ services:
         image: miratepuffin/raphtory:ben
         command: env-setter.sh liveAnalysis
         env_file: .env
+        volumes:
+            - output:/opt/docker
         deploy:
             endpoint_mode: vip
             replicas: 1
             placement:
                 constraints:
                     - node.labels.raphtoryrole==setupjobs
+volumes:
+  output:

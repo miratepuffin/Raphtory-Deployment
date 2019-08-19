@@ -70,14 +70,14 @@ function run() {
     clean_labels
     setup_workers $1 $2 $3 $4 $5 $6
     deploy
-    sleep 180
-    poll
-    date
-    echo "Removing cluster in 30 seconds as dead letters > 500"
-    serviceLog $1 $4 $5 $6 $7 time
-    sleep 30
-    remove
-    sleep 180
+#    sleep 180
+#    poll
+#    date
+#    echo "Removing cluster in 30 seconds as dead letters > 500"
+#    serviceLog $1 $4 $5 $6 $7 time
+#    sleep 30
+#    remove
+#    sleep 180
 }
 
 remove
