@@ -16,7 +16,7 @@ function setup_workers() {
     cp EnvExamples/gabgraph_dotenv.example .env
     echo "PARTITION_MIN=$1" >> .env
     echo "ROUTER_MIN=4" >> .env
-    echo "GAB_PROJECT_OUTPUT=/opt/docker/bin/defout.csv" >> .env
+    echo "GAB_PROJECT_OUTPUT=/opt/docker/bin/$8" >> .env
     echo "LAMTYPE=$2" >> .env
     echo "LAMCLASS=com.raphtory.core.analysis.Algorithms.$3" >> .env
     echo "START=$4" >> .env
@@ -28,9 +28,9 @@ function setup_workers() {
 }
 
 function run() {
-    setup_workers 8 $1 $2 $3 $4 $5 $6
+    setup_workers 8 $1 $2 $3 $4 $5 $6 $7
     deploy
 }
 
 #run WAM ConnectedComponents.ConComLAM 1470801546000 1471459626000 3600000 86400000
-run WAM Density.DensityWAM 1470801546000 1471891600000 3600000 3600000
+run WAM Density.DensityWAM 1470801546000 1471891600000 3600000 3600000 output.csv
