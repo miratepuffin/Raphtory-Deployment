@@ -17,4 +17,6 @@ RUN apt-get update && apt-get install cassandra -y
 
 RUN mkdir -p /var/lib/cassandra/data && chmod 777 /var/lib/cassandra/data && mkdir -p /var/lib/cassandra/commitlog && chmod 777 /var/lib/cassandra/commitlog && chmod 777 /var/lib/cassandra/ && mkdir -p /var/log/cassandra/ && chmod 777 /var/log/cassandra/
 
+COPY gabNetwork500.csv gabNetwork500.csv
+
 ENTRYPOINT ["/bin/bash"]
