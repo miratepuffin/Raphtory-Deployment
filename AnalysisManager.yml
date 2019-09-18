@@ -19,5 +19,7 @@ services:
             placement:
                 constraints:
                     - node.labels.raphtoryrole==setupjobs
+            restart_policy:
+                condition: on-failure
 volumes:
   output:
