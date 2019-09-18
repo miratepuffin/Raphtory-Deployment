@@ -5,6 +5,6 @@ ADD_ONLY_EDGE=false
 JAVA_OPTS=-XX:+UseConcMarkSweepGC -XX:+UseParNewGC -Xms20g -XX:NewRatio=3
 PROMETHEUS=true
 STDOUT_LOG=true
-UPDATERCLASS=com.raphtory.examples.gabMining.actors.GabKafkaSpout
-ROUTERCLASS=com.raphtory.examples.gabMining.actors.GabMiningRouter
+UPDATERCLASS=com.raphtory.examples.gab.actors.GabKafkaSpout
+ROUTERCLASS=com.raphtory.examples.gab.actors.GabUserGraphRouter
 RAMP_FLAG=true

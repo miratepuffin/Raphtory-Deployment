@@ -22,7 +22,8 @@ function setup_workers() {
     echo "START=$4" >> .env
     echo "END=$5" >> .env
     echo "JUMP=$6" >> .env
-    echo "WINDOW=$7" >> .env
+    echo "WINDOWTYPE=batched" >>.env
+    echo "WINDOWSET=$7" >> .env
     echo "ARCHIVING=False" >> .env
 
 }
@@ -33,4 +34,4 @@ function run() {
 }
 
 #run WAM ConnectedComponents.ConComLAM 1470801546000 1471459626000 3600000 86400000
-run WAM Density.DensityWAM 1470783600000 1525368897000 3600000 3600000 densityMessageHourFinal.csv
+run RAM ConnectedComponents 1470783600000 1525368897000 86400000 31536000000,2592000000,604800000,86400000 ccrealday2.csv
