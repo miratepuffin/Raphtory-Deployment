@@ -2526,4 +2526,4 @@
 {"time":1525368897000,"windowsize":31536000000,"biggest":81328,"total":1771,"totalWithoutIslands":616,"totalIslands":1155,"proportion":0.96996874,"proportionWithoutIslands":0.98351693,"clustersGT2":73,"viewTime":152361,"concatTime":4},
 {"time":1525368897000,"windowsize":2592000000,"biggest":21057,"total":621,"totalWithoutIslands":272,"totalIslands":349,"proportion":0.957833,"proportionWithoutIslands":0.973284,"clustersGT2":25,"viewTime":152361,"concatTime":1},
 {"time":1525368897000,"windowsize":604800000,"biggest":9196,"total":248,"totalWithoutIslands":126,"totalIslands":122,"proportion":0.9575177,"proportionWithoutIslands":0.9698376,"clustersGT2":18,"viewTime":152361,"concatTime":1},
-{"time":1525368897000,"windowsize":86400000,"biggest":3706,"total":144,"totalWithoutIslands":95,"totalIslands":49,"proportion":0.9372787,"proportionWithoutIslands":0.9490397,"clustersGT2":11,"viewTime":152361,"concatTime":1},
+{"time":1525368897000,"windowsize":86400000,"biggest":3706,"total":144,"totalWithoutIslands":95,"totalIslands":49,"proportion":0.9372787,"proportionWithoutIslands":0.9490397,"clustersGT2":11,"viewTime":152361,"concatTime":1}]}
