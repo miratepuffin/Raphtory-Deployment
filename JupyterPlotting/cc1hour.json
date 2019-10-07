@@ -15032,4 +15032,4 @@
 {"time":1525359600000,"windowsize":3600000,"biggest":566,"total":83,"totalWithoutIslands":73,"totalIslands":10,"proportion":0.7496689,"proportionWithoutIslands":0.75973153,"clustersGT2":19,"viewTime":951,"concatTime":1},
 {"time":1525363200000,"windowsize":3600000,"biggest":478,"total":94,"totalWithoutIslands":84,"totalIslands":10,"proportion":0.6638889,"proportionWithoutIslands":0.6732394,"clustersGT2":24,"viewTime":927,"concatTime":1},
 {"time":1525366800000,"windowsize":3600000,"biggest":434,"total":107,"totalWithoutIslands":100,"totalIslands":7,"proportion":0.62,"proportionWithoutIslands":0.6262626,"clustersGT2":32,"viewTime":893,"concatTime":0},
-{"time":1525368897000,"windowsize":3600000,"biggest":482,"total":101,"totalWithoutIslands":91,"totalIslands":10,"proportion":0.6703755,"proportionWithoutIslands":0.67983073,"clustersGT2":23,"viewTime":812,"concatTime":1},
+{"time":1525368897000,"windowsize":3600000,"biggest":482,"total":101,"totalWithoutIslands":91,"totalIslands":10,"proportion":0.6703755,"proportionWithoutIslands":0.67983073,"clustersGT2":23,"viewTime":812,"concatTime":1}]}
