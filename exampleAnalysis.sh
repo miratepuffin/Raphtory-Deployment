@@ -14,6 +14,8 @@ function setup_workers() {
     echo "JUMP=$5" >> .env
     echo "WINDOWTYPE=$6" >>.env
     echo "WINDOW=$7" >> .env
+    echo "GAB_PROJECT_OUTPUT=/opt/docker/bin/readme.json" >> .env
+
 }
 
 setup_workers $1 $2 $3 $4 $5 $6 $7
