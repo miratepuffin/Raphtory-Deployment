@@ -48,7 +48,7 @@ function run() {
     clean_labels
     pm="$(wc -l nodelists/pm.list | awk '{print $1}')"
     router="$(wc -l nodelists/routers.list | awk '{print $1}')"
-    setup_workers pm router $1
+    setup_workers $pm $router $1
     deploy
 }
 
