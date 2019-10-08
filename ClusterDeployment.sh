@@ -48,7 +48,6 @@ function setup_workers() {
         docker node update --label-add raphtoryrole=router $i
     done
 
-
     for i in $(cat nodelists/pm.list | head -n $1); do
         docker node update --label-add raphtoryrole=partitionManager $i
     done
