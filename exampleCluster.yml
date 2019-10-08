@@ -1,0 +1,78 @@
+version: '3.3'
+
+
+networks:
+    default:
+        external:
+            name: raphtory-prometheus_default
+
+services:
+    #### seedSetup ####
+    seedNode:
+        image: miratepuffin/raphtory:readme
+        command: env-setter.sh seedNode
+        env_file: .env
+        deploy:
+            endpoint_mode: dnsrr
+            replicas: 1
+            placement:
+                constraints:
+                    - node.labels.raphtoryrole==setupjobs
+
+    watchDog:
+        image: miratepuffin/raphtory:readme
+        depends_on:
+            - seedNode
+        command: env-setter.sh clusterUp
+        env_file: .env
+        deploy:
+            endpoint_mode: vip
+            replicas: 1
+            placement:
+                constraints:
+                    - node.labels.raphtoryrole==setupjobs
+
+    partitionManager:
+        image: miratepuffin/raphtory:readme
+        depends_on:
+            - seedNode
+            - watchDog
+        command: env-setter.sh partitionManager
+        env_file: .env
+        deploy:
+            endpoint_mode: dnsrr
+            mode: global
+            placement:
+                constraints:
+                    - node.labels.raphtoryrole==partitionManager
+
+    router:
+         image: miratepuffin/raphtory:readme
+         depends_on:
+            - seedNode
+            - watchDog
+
+         command: env-setter.sh router
+         env_file: .env
+         deploy:
+            endpoint_mode: dnsrr
+            mode: global
+            placement:
+                constraints:
+                  - node.labels.raphtoryrole==router
+
+    updater:
+        image: miratepuffin/raphtory:readme
+        depends_on:
+            - seedNode
+            - watchDog
+        command: env-setter.sh updater
+        env_file: .env
+        deploy:
+            replicas: 1
+            placement:
+                constraints:
+                    - node.labels.raphtoryrole==setupjobs
+
+volumes:
+    prometheus_data:

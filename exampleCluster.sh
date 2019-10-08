@@ -8,7 +8,7 @@ function clean_labels() { #Clears the docker labels off of every node
 }
 
 function deploy { # deploys the raphtory stack as specified in cluster.yml
-    docker stack deploy raphtory --compose-file cluster.yml
+    docker stack deploy raphtory --compose-file exampleCluster.yml
 }
 
 function deployPrometheus { #deploys prometheus which monitors raphtory
