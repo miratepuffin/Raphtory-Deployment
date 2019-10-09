@@ -27,7 +27,7 @@ cp EnvExamples/bitcoin_read_dotenv.example .env
 docker stack deploy --compose-file docker-compose-local.yml raphtory
 ```
 
-If we look inside of the compose file, we will see three 'services' which this should deploy. Prometheus, which is the monitoring tool used for Raphtory. [Zookeeper](https://zookeeper.apache.org/) which containers can use to join the Akka network, and singleNode which contains all of the Raphtory components. We can check if the cluster is running via:
+If we look inside of the compose file, we will see three 'services' which this should deploy. Prometheus, which is the monitoring tool used for Raphtory. singleNode which contains all of the Raphtory components. We can check if the cluster is running via:
 
 ```bash
 docker stack ps raphtory
