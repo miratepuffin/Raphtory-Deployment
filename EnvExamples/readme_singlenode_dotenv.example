@@ -1,0 +1,13 @@
+COMPOSE_PROJECT_NAME=raphtory
+ADD_ONLY_VERTEX=false
+ADD_ONLY_EDGE=false
+JAVA_OPTS=-XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:NewRatio=3
+PARTITION_MIN=1
+ROUTER_MIN=1
+PROMETHEUS=true
+STDOUT_LOG=true
+UPDATERCLASS=com.raphtory.examples.gab.actors.GabExampleSpout
+ROUTERCLASS=com.raphtory.examples.gab.actors.GabUserGraphRouter
+ARCHIVING=false
+COMPRESSING=false
+SAVING=false
