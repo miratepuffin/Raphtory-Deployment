@@ -84,7 +84,7 @@ If you have selected a Range or View query once the query has been completed Rap
   <img src="readmepics/localfinished.png" alt="Raphtory diagram"/>
 </p>
 
-### Promethus
+### Prometheus
 Whilst the analyis is running you may access the [Prometheus](https://prometheus.io/docs/practices/instrumentation/) interface at localhost:8888 which logs many interesting metrics from Akka, the JVM and Raphtory. This is also a timeseries database so you can see how these metrics are changing as the ingestion/analysis progresses.  
 
 <p align="center">
@@ -98,34 +98,39 @@ Alongside the default interface we are also developing a Raphtory dashboard, whi
 </p>
 
 ## Deploy as a cluster
-
-
- We can check if the cluster is running via:
-
-```bash
-docker stack ps raphtory
-```
-which will list all of the containers running within the stack and allow you to connect to their output stream to see what is going on inside. This should look like the following: 
+Running on a cluster is similar to the local deployment, but utilises [Docker Swarm](https://docs.docker.com/engine/swarm/) instead of Docker-compose. A Docker Swarm cluster can be setup running ```docker swarm init```, this will then provide a join command to be run on any node that you want to join the swarm as a worker. Once you have done this on all of your nodes you can then run ```docker node ls``` on your manager node to get a list of all workers (below is the cluster I will be using for this demo):
 
 <p align="center">
-  <img src="readmepics/dock.png" alt="Raphtory diagram"/>
+  <img src="readmepics/dockernodels.png" alt="Raphtory diagram"/>
 </p>
 
-We can then view the output from Raphtory running within in the single node via:
+As swarm doesn't really have a fantastic way to pick which nodes a service is run on, we manage this via [node labels](https://docs.docker.com/v17.09/datacenter/ucp/2.2/guides/admin/configure/add-labels-to-cluster-nodes/#deploy-a-service-with-constraints). For this example (and all the scripts available) this is done via our [node lists](https://github.com/miratepuffin/Raphtory-Deployment/tree/master/nodelists) directory which you will have to set depending on your cluster nodes and choice of components. For the example I will split the above nodes into [8 Partition Managers](https://github.com/miratepuffin/Raphtory-Deployment/blob/master/nodelists/pm.list), [4 routers](https://github.com/miratepuffin/Raphtory-Deployment/blob/master/nodelists/routers.list), [1 for Prometheus](https://github.com/miratepuffin/Raphtory-Deployment/blob/master/nodelists/prometheus.list) (The master node) and [1 for misc components](https://github.com/miratepuffin/Raphtory-Deployment/blob/master/nodelists/setup.list) (watchdog, seednode, updater and analysis manager). As a minimum you need one node for each of these services, or have change the yml files to say place Partition Managers and Routers on the same machines. You can also add all of your nodes to [nodes.list](https://github.com/miratepuffin/Raphtory-Deployment/blob/master/nodelists/nodes.list) and the labels will be refreshed each run.
 
-```bash
-docker service logs raphtory_singleNode --follow
-```  
-
-Finally when you are happy everything is working, the cluster can be removed by running:
-
-```bash
-docker stack remove raphtory
-```
-
-When we look inside of this file it can be seen that there a lot more services. This is because each of the Raphtory cluster components are now within their own containers. It should be noted here that due to the random order docker starts up these containers, they can sometimes fail to connect to zookeeper and crash (see the Live analysis manager below). This is completely fine and the container will simply be restarted and connect to the cluster. 
+Once you have this conf all setup, you can establish the raphtory cluster with  ```./examplecluster.sh```, which will remove any old raphtory instances, allocate labels and build all required services:
+<p align="center">
+  <img src="readmepics/exampleclustersh.png" alt="Raphtory diagram" width=70%/>
+</p>
+We can check if the cluster is running via:```docker stack ps raphtory```
+which will list all of the containers running within the stack and allow you to connect to their output stream to see what is going on inside. This should look similar to the following: 
+ 
 
 <p align="center">
-  <img src="readmepics/cluster.png" alt="Raphtory diagram"/>
+  <img src="readmepics/dockerstackls.png" alt="Raphtory diagram"/>
 </p>
+
+We can then view the output from any of these services via: ```docker service logs raphtory_XXX --follow``` where the XXX is replaced with the service name such as ```raphtory_partitionManager```.
+
+If you are happy that these are all working you can then connect an Analysis Manager, which works in exactly the same way as the local script, for example:
+ 
+```
+./exampleAnalysis.sh Range ConnectedComponents 1470783600000 1476114624000 86400000 false 86400000
+```
+The Analyser is then run on a seperate stack so that it can be brought up an down independently. The output from this can be viewed by ```docker service logs analysis_lam --follow```:
+<p align="center">
+  <img src="readmepics/analysislogs.png" alt="Raphtory diagram"/>
+</p>
+
+Once you have finished with the chosen query the Analysis Manager can be brought down with ```docker stack remove analysis``` and new queries can be run with ```./exampleAnalysis.sh```. Finally when you are happy everything is working, the cluster can be removed by running:```docker stack remove raphtory```.
+
+
 
