@@ -15,7 +15,7 @@ services:
             - 8888:9090
         volumes:
             - prometheus_data:/prometheus
-            - ./charts_html:/usr/share/prometheus/consoles
+            - ./Dockerfiles/prometheus/charts_html:/usr/share/prometheus/consoles
         env_file: .env
         deploy:
             endpoint_mode: vip
