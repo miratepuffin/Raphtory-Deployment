@@ -22,7 +22,7 @@ As an example of this, below are two plots from a range query on the [GAB.AI](ht
 
 The first plot looks at the largest component size. Within this, the Month and week windows show several intersting upticks in user activity which slowly drops back down, a trend not easy to see within the year window. Similarly within the second plot, which looks at the proportion of the graph the largest component consists of, for all windows greater than an hour almost 100% of the users are connected. At the hour window, however, this varies wildy throughout the day (between 10% and 80%) as the communities go to sleep and wake back up.
 
-<img src="readmepics/biggestgraph.png" width="425"/> <img src="readmepics/percentgraph.png" width="425"/> 
+<img src="readmepics/biggestplot.png" width="425"/> <img src="readmepics/percentplot.png" width="425"/> 
 
 # Running Raphtory
 ### To run Raphtory please refer to the [Raphtory-Deployment](https://github.com/miratepuffin/Raphtory-Deployment) repository.
