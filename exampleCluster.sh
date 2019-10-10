@@ -8,7 +8,7 @@ function clean_labels() { #Clears the docker labels off of every node
 }
 
 function deploy { # deploys the raphtory stack as specified in cluster.yml
-    docker stack deploy raphtory --compose-file exampleCluster.yml
+    docker stack deploy raphtory --compose-file compose/exampleCluster.yml
 }
 
 function deployPrometheus { #deploys prometheus which monitors raphtory
@@ -16,7 +16,7 @@ function deployPrometheus { #deploys prometheus which monitors raphtory
       docker node update --label-add raphtoryrole=prometheus $i
   done
   cp EnvExamples/gabgraph_dotenv.example .env
-  docker stack deploy raphtory-prometheus --compose-file prometheus.yml
+  docker stack deploy raphtory-prometheus --compose-file compose/prometheus.yml
 }
 
 function remove() { #removes the old cluster if there was one

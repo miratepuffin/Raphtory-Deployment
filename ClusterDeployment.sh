@@ -8,12 +8,12 @@ function clean_labels() {
 }
 
 function deploy {
-    docker stack deploy raphtory --compose-file cluster.yml
+    docker stack deploy raphtory --compose-file compose/cluster.yml
 }
 
 function deployPrometheus {
   cp EnvExamples/gabgraph_dotenv.example .env
-  docker stack deploy raphtory-prometheus --compose-file prometheus.yml
+  docker stack deploy raphtory-prometheus --compose-file compose/prometheus.yml
 }
 
 function poll() {

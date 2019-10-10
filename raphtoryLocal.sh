@@ -1,6 +1,6 @@
 
 function deploy {
-    docker-compose -f singlenode.yml up --remove-orphans
+    docker-compose -f compose/singlenode.yml up --remove-orphans
 }
 
 function setup_live() {

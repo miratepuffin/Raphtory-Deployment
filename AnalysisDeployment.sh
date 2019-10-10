@@ -2,7 +2,7 @@
 
 
 function deploy {
-    docker stack deploy analysis --compose-file AnalysisManager.yml
+    docker stack deploy analysis --compose-file compose/AnalysisManager.yml
 }
 
 function serviceLog() {

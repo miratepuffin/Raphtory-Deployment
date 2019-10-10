@@ -2,7 +2,7 @@
 
 
 function deploy {
-    docker stack deploy analysis --compose-file exampleAnalysis.yml
+    docker stack deploy analysis --compose-file compose/exampleAnalysis.yml
 }
 
 function setup_workers() {
