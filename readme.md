@@ -84,7 +84,7 @@ If you have selected a Range or View query once the query has been completed Rap
   <img src="readmepics/localfinished.png" alt="Raphtory diagram"/>
 </p>
 
-###Promethus
+### Promethus
 Whilst the analyis is running you may access the [Prometheus](https://prometheus.io/docs/practices/instrumentation/) interface at localhost:8888 which logs many interesting metrics from Akka, the JVM and Raphtory. This is also a timeseries database so you can see how these metrics are changing as the ingestion/analysis progresses.  
 
 <p align="center">

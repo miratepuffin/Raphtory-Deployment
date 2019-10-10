@@ -9,27 +9,21 @@ networks:
 services:
     #### Monitoring front-end ####
     prometheus:
+        build: prometheus/
         image: miratepuffin/raphtory_prometheus:test
         ports:
             - 8888:9090
         volumes:
             - prometheus_data:/prometheus
-            - ../Dockerfiles/prometheus/charts_html:/usr/share/prometheus/consoles
-        env_file: ../.env
+            - ./Dockerfiles/prometheus/charts_html:/usr/share/prometheus/consoles
+        env_file: .env
         deploy:
             endpoint_mode: vip
             replicas: 1
+            placement:
+                constraints:
+                    - node.labels.raphtoryrole==prometheus
 
-    raphtory:
-        image: miratepuffin/raphtory:readme
-        command: env-setter.sh singleNodeSetup
-        env_file: ../.env
-        volumes:
-            - output:/opt/docker        
-        deploy:
-            endpoint_mode: dnsrr
-            replicas: 1
 
 volumes:
     prometheus_data:
-    output:

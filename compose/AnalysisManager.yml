@@ -10,7 +10,7 @@ services:
     lam:
         image: miratepuffin/raphtory:ben
         command: env-setter.sh liveAnalysis
-        env_file: .env
+        env_file: ../.env
         volumes:
             - output:/opt/docker
         deploy:
