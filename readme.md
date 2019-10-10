@@ -22,20 +22,14 @@ As an example of this, below are two plots from a range query on the [GAB.AI](ht
 
 The first plot looks at the largest component size. Within this, the Month and week windows show several intersting upticks in user activity which slowly drops back down, a trend not easy to see within the year window. Similarly within the second plot, which looks at the proportion of the graph the largest component consists of, for all windows greater than an hour almost 100% of the users are connected. At the hour window, however, this varies wildy throughout the day (between 10% and 80%) as the communities go to sleep and wake back up.
 
-<img src="https://github.com/miratepuffin/Raphtory-Deployment/blob/master/readmepics/Biggestgraph.png" width="425"/> <img src="https://github.com/miratepuffin/Raphtory-Deployment/blob/master/readmepics/Percentgraph.png" width="425"/> 
+<img src="readmepics/biggestgraph.png" width="425"/> <img src="readmepics/percentgraph.png" width="425"/> 
 
 # Running Raphtory
 ### To run Raphtory please refer to the [Raphtory-Deployment](https://github.com/miratepuffin/Raphtory-Deployment) repository.
 
 To make Raphtory as easy to run as possible it has been containerised within docker. This means that you only have to [install docker](https://docs.docker.com/engine/installation/) and you will be able to run raphtory on your machine. 
 
-First clone this project which contains all of the yml files required for running. Once this is cloned and you have docker installed, run: 
-
-```bash
-docker swarm init  
-``` 
-
-This will initialise a docker swarm cluster onto your machine which will allow you to deploy via [docker stack](https://docs.docker.com/engine/reference/commandline/stack/). Docker stack requires a [Docker Compose](https://docs.docker.com/compose/compose-file/) file to specify which containers to run, how many of each type and what ports to open etc. Within the [Raphtory-Deployment](https://github.com/miratepuffin/Raphtory-Deployment) repository there are three main compose files: One for running a Raphtory [cluster](https://github.com/miratepuffin/Raphtory-Deployment/blob/master/exampleCluster.yml), one for performing [analysis](https://github.com/miratepuffin/Raphtory-Deployment/blob/master/exampleAnalysis.yml) and a third for lanching [Prometheus](https://github.com/miratepuffin/Raphtory-Deployment/blob/master/prometheus.yml) which is the monitoring tool that Raphtory reports to. There is also a forth compose file which combines all of these into a single node for running [locally](https://github.com/miratepuffin/Raphtory-Deployment/blob/master/singlenode.yml).
+First clone the [Raphtory-Deployment](https://github.com/miratepuffin/Raphtory-Deployment) project which contains all of the docker-compose(yml) files required for running. [Docker-Compose](https://docs.docker.com/compose/compose-file/) files specify which containers to run, how many of each type and what ports to open etc. Within the [Raphtory-Deployment](https://github.com/miratepuffin/Raphtory-Deployment) repository there are three main compose files: One for running a Raphtory [cluster](https://github.com/miratepuffin/Raphtory-Deployment/blob/master/exampleCluster.yml), one for performing [analysis](https://github.com/miratepuffin/Raphtory-Deployment/blob/master/exampleAnalysis.yml) and a third for lanching [Prometheus](https://github.com/miratepuffin/Raphtory-Deployment/blob/master/prometheus.yml) which is the monitoring tool that Raphtory reports to. There is also a forth compose file which combines all of these into a single node for running [locally](https://github.com/miratepuffin/Raphtory-Deployment/blob/master/singlenode.yml).
 
 ## Example workloads to pick from
 Once Docker is setup you may pick an example workload to experiment with. There are three to choose from (see [here](https://github.com/miratepuffin/raphtory/tree/master/mainproject/cluster/src/main/scala/com/raphtory/examples)): A 'random' graph where updates are generated at runtime; the [GAB.AI](https://gab.ai/) graph (a graph build from the posts on the social network); and a 'coingraph' built by ingesting the transactions within the bitcoin blockchain. 
@@ -47,10 +41,66 @@ Raphtory uses [Reflection](https://docs.scala-lang.org/overviews/reflection/over
 #### For the insturctions below I shall be using the GAB data and readme example environment [file](https://github.com/miratepuffin/Raphtory-Deployment/blob/master/EnvExamples/readme_dotenv.example) which have several scripts to automate your first run of Raphtory. 
  
 ## Deploy locally via docker-compose
-To run locally a [script](https://github.com/miratepuffin/Raphtory-Deployment/blob/master/raphtoryLocal.sh) is provided which carries out all the steps required to get our node up and running. 
+To run locally a [script](https://github.com/miratepuffin/Raphtory-Deployment/blob/master/raphtoryLocal.sh) is provided which carries out all the steps required to get our node up and running. This copies the example environment file to .env and then writes the parameters of your query into it. This script takes several arguments:
+
+* The first being the type of analaysis you would like to perform; Live View or Range. 
+* The second parameter is then the analysis you would like to perform (ConnectedComponents is currently the only tested on on this version)
+* If you have chosen live analysis the third and forth parameter are the type of windowing [false,true or batched] and the size of the window in milli seconds (a comma seperated list if batched). 
+* If instead you are doing a view or range this would then be the chosen view time/start end and interval followed by the chosen window. These must be given in unix timestamps.
+
+### Here are three example queries that can be run on the sample Gab data
+
+This will run Live Analysis on the Graph as it is ingested, without any windowing:
+
+```bash
+./raphtoryLocal Live ConnectedComponents false 
+```
+This will run a view query at Thursday, 29 September 2016 02:03:44 with a window of one day:
+
+```bash
+./raphtoryLocal View ConnectedComponents 1475114624000 true 86400000
+```
+This will run a range query between august and october doing connected componnents every hour with window sizes of one hour, day, week, month and year similar to the one run for the plots above:
+
+```bash
+./raphtoryLocal Range ConnectedComponents 1470783600000 1476114624000 3600000 batched 31536000000,2592000000,604800000,86400000,3600000
+```
+
+When the script begins you will see the initial logs prometheus and raphtory tagged and coloured by who sent them:
+
+<p align="center">
+  <img src="readmepics/clusterup.png" alt="Raphtory diagram"/>
+</p>
+
+Once everything has booted up the Analysis Manager will kick in and begin reporting back to the terminal the results of the Queries. Alongside results here, you may also see messages saying there was no activity within the set window/view combination (as at the top of the figure below) or alternativly if the analysis has gotten ahead of the ingestion a backoff message informing the user that the analysis (as at the bottom of the figure):
+
+<p align="center">
+  <img src="readmepics/localrunning.png" alt="Raphtory diagram"/>
+</p>
+
+If you have selected a Range or View query once the query has been completed Raphtory will close down and report a success to the user. If you have chosen Live analysis this will continue to run forever until the user decides to stop it. In either case, once you are happy that the example has run its course you can take down Raphtory by pressing ctrl+c:
+
+<p align="center">
+  <img src="readmepics/localfinished.png" alt="Raphtory diagram"/>
+</p>
+
+###Promethus
+Whilst the analyis is running you may access the [Prometheus](https://prometheus.io/docs/practices/instrumentation/) interface at localhost:8888 which logs many interesting metrics from Akka, the JVM and Raphtory. This is also a timeseries database so you can see how these metrics are changing as the ingestion/analysis progresses.  
+
+<p align="center">
+  <img src="readmepics/prometheus.png" alt="Raphtory diagram"/>
+</p>
+
+Alongside the default interface we are also developing a Raphtory dashboard, which will report on things such as current ingestion by each Partition Manger/Router and current size of the Graph/History range in-memory etc. This is a work in progress, but can be accessed at localhost:8888/consoles/site/html/dashboard.html:
+
+<p align="center">
+  <img src="readmepics/prometheusgui.png" alt="Raphtory diagram"/>
+</p>
+
+## Deploy as a cluster
 
 
-If we look inside of the compose file, we will see three 'services' which this should deploy. Prometheus, which is the monitoring tool used for Raphtory. singleNode which contains all of the Raphtory components. We can check if the cluster is running via:
+ We can check if the cluster is running via:
 
 ```bash
 docker stack ps raphtory
@@ -66,14 +116,6 @@ We can then view the output from Raphtory running within in the single node via:
 ```bash
 docker service logs raphtory_singleNode --follow
 ```  
-There should then be some initial debug logs followed by the output for the analysis for the chosen workload. For example below we can see the Bitcoin Analyser returning the top three wallets which have aquired the most bitcoins at the latest ingested block. 
-
-<p align="center">
-  <img src="readmepics/logs.png" alt="Raphtory diagram"/>
-</p>
-
-In addition to these logs [Prometheus](https://prometheus.io/docs/practices/instrumentation/) is running at [http://localhost:8888](http://localhost:8888), providing additional metrics such as CPU/memory utilisation, number of vetices/edges and updates injested. 
-
 
 Finally when you are happy everything is working, the cluster can be removed by running:
 
@@ -81,24 +123,9 @@ Finally when you are happy everything is working, the cluster can be removed by 
 docker stack remove raphtory
 ```
 
-## Deploy as a cluster
-Deploying over a cluster is very similar to deploying locally, we again copy the env file and deploy via docker stack, but this time we use the docker-compose.yml file:
-
-```bash
-cp EnvExamples/bitcoin_read_dotenv.example .env
-docker stack deploy --compose-file docker-compose.yml raphtory
-```
 When we look inside of this file it can be seen that there a lot more services. This is because each of the Raphtory cluster components are now within their own containers. It should be noted here that due to the random order docker starts up these containers, they can sometimes fail to connect to zookeeper and crash (see the Live analysis manager below). This is completely fine and the container will simply be restarted and connect to the cluster. 
 
 <p align="center">
   <img src="readmepics/cluster.png" alt="Raphtory diagram"/>
 </p>
 
-### Increasing the number of Routers and Partition Managers 
-As you are now running in cluster mode the number of PM's and Routers within your cluster can be specified. This is set within the yml file under the 'deploy' section of each service. A nice way we have found to do this is to set the mode to global and then set a [label constraint](https://docs.docker.com/v17.09/datacenter/ucp/2.2/guides/admin/configure/add-labels-to-cluster-nodes/#apply-labels-to-a-node) for the service. This way you get one Partition on each chosen node within the swarm cluster.             
-
-<p align="center">
-  <img src="readmepics/Pms.png" alt="Raphtory diagram" width=40%/>
-</p>
-
-In addition to the above, whilst Routers and Live Analysis Managers can leave and join the cluster at any time (as they are somewhat stateless), there has to be a set number of Partition Managers established at the start. This is set within the .env file under PARTITION_MIN and should match the number which will be created when the containers are deployed.
