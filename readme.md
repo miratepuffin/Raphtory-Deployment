@@ -20,7 +20,7 @@ Raphtory also allows users to set a window time of interest so that only vertice
 
 As an example of this, below are two plots from a range query on the [GAB.AI](https://gab.ai/) graph (build from user interactions within the social network). The Analyser was looking at different features of connected components between August 2016 and May 2018, hoping forward one hour at a time. For each view the analysis was completed with windows of one year, month, week, day,and hour to see how the extracted properties would change. (This is all run in one job).
 
-The first plot looks at the largest component size. Within this, the Month and week windows show several intersting upticks in user activity which slowly drops back down, a trend not easy to see within the year window. Similarly within the second plot, which looks at the proportion of the graph the largest component consists of, for all windows greater than an hour almost 100% of the users are connected. At the hour window, however, this varies wildy throughout the day (between 10% and 80%) as the communities go to sleep and wake back up.
+The first plot looks at the largest component size. Within this, the Month and week windows show several intersting upticks in user activity which slowly drops back down, a trend not easy to see within the year window. Similarly within the second plot, which looks at the proportion of the graph the largest component consists of, for all windows greater than an hour almost 100% of the users are connected. At the hour window, however, this varies wildy throughout the day (between 10% and 80%) as the communities go to sleep and wake back up. The data and notebook for these plots can be found [here](https://github.com/miratepuffin/Raphtory-Plots).
 
 <img src="readmepics/biggestplot.png" width="425"/> <img src="readmepics/percentplot.png" width="425"/> 
 
@@ -53,17 +53,17 @@ To run locally a [script](https://github.com/miratepuffin/Raphtory-Deployment/bl
 This will run Live Analysis on the Graph as it is ingested, without any windowing:
 
 ```bash
-./raphtoryLocal Live ConnectedComponents false 
+./raphtoryLocal.sh Live ConnectedComponents false 
 ```
 This will run a view query at Thursday, 29 September 2016 02:03:44 with a window of one day:
 
 ```bash
-./raphtoryLocal View ConnectedComponents 1475114624000 true 86400000
+./raphtoryLocal.sh View ConnectedComponents 1475114624000 true 86400000
 ```
 This will run a range query between august and october doing connected componnents every hour with window sizes of one hour, day, week, month and year similar to the one run for the plots above:
 
 ```bash
-./raphtoryLocal Range ConnectedComponents 1470783600000 1476114624000 3600000 batched 31536000000,2592000000,604800000,86400000,3600000
+./raphtoryLocal.sh Range ConnectedComponents 1470783600000 1476114624000 3600000 batched 31536000000,2592000000,604800000,86400000,3600000
 ```
 
 When the script begins you will see the initial logs prometheus and raphtory tagged and coloured by who sent them:
