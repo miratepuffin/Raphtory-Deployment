@@ -86,4 +86,4 @@ function grouprun() {
 }
 
 deployPrometheus
-grouprun 8
+grouprun 23
