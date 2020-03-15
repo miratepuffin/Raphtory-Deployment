@@ -1,0 +1,18 @@
+etherdeamon:
+  image: ethereum/client-go:stable
+  ports:
+    - 30303:30303
+    - 8545:8545
+  volumes:
+    - ./data/:/root/.ethereum
+  entrypoint:
+    - geth
+    - --cache
+    - "1024"
+    - --syncmode
+    - "light"
+    - --rpc
+    - --rpcaddr
+    - "0.0.0.0"
+    - --rpcapi
+    - "web3"
