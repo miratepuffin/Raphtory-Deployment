@@ -15,4 +15,4 @@ etherdeamon:
     - --rpcaddr
     - "0.0.0.0"
     - --rpcapi
-    - "web3"
+    - "eth,web3"
