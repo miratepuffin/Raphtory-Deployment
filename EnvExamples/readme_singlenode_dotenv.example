@@ -5,9 +5,12 @@ JAVA_OPTS=-XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:NewRatio=3
 PARTITION_MIN=1
 ROUTER_MIN=1
 PROMETHEUS=true
-STDOUT_LOG=true
-UPDATERCLASS=com.raphtory.examples.gab.actors.GabExampleSpout
+SPOUTCLASS=com.raphtory.examples.gab.actors.GabExampleSpout
 ROUTERCLASS=com.raphtory.examples.gab.actors.GabUserGraphRouter
 ARCHIVING=false
 COMPRESSING=false
 SAVING=false
+DOCKER=true
+LOCAL=true
+# GAB_PROJECT_OUTPUT=/opt/docker/output.csv
+
