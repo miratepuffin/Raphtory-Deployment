@@ -8,7 +8,7 @@ networks:
 
 services:
     raphtory:
-        image: miratepuffin/raphtory:test
+        image: miratepuffin/raphtory:ethereum
         ports:
              - 8081:8081
         command: env-setter.sh singleNodeSetup

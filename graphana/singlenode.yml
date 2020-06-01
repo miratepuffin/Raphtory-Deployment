@@ -1,0 +1,52 @@
+version: '3.3'
+
+networks:
+  default:
+    ipam:
+      config:
+        - subnet: 10.0.0.0/24
+
+services:
+    #### Monitoring front-end ####
+    prometheus:
+        image: miratepuffin/raphtory_prometheus:test
+        ports:
+            - 8888:9090
+        volumes:
+            - prometheus_data:/prometheus
+            - ../Dockerfiles/prometheus/charts_html:/usr/share/prometheus/consoles
+        env_file: .env
+        deploy:
+            endpoint_mode: vip
+            replicas: 1
+    grafana:
+        image: grafana/grafana
+        user: "472"
+        depends_on:
+            - prometheus
+        ports:
+            - 3000:3000
+        volumes:
+            - grafana_data:/var/lib/grafana
+            - ./provisioning/:/etc/grafana/provisioning/
+        env_file:
+            - ./config.monitoring
+
+    raphtory:
+        image: miratepuffin/raphtory:ethereum
+        ports:
+             - 8080:8080
+        command: env-setter.sh singleNodeSetup
+        env_file: .env
+        volumes:
+            - output:/opt/docker        
+        depends_on:
+            - prometheus
+        deploy:
+            endpoint_mode: dnsrr
+            replicas: 1
+
+volumes:
+    prometheus_data:
+    output:
+    grafana_data: {}
