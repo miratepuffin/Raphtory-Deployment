@@ -6,6 +6,7 @@ networks:
       config:
         - subnet: 10.0.0.0/24
 
+
 services:
     #### Monitoring front-end ####
     prometheus:
@@ -19,6 +20,7 @@ services:
         deploy:
             endpoint_mode: vip
             replicas: 1
+
     grafana:
         image: grafana/grafana
         user: "472"
@@ -31,20 +33,20 @@ services:
             - ./provisioning/:/etc/grafana/provisioning/
         env_file:
             - ./config.monitoring
+        deploy:
+            endpoint_mode: vip
+            replicas: 1
 
     raphtory:
-        image: miratepuffin/raphtory:ethereum
+        image: miratepuffin/raphtory:latest
+        depends_on:
+            - prometheus
         ports:
              - 8080:8080
         command: env-setter.sh singleNodeSetup
         env_file: .env
         volumes:
-            - output:/opt/docker        
-        depends_on:
-            - prometheus
-        deploy:
-            endpoint_mode: dnsrr
-            replicas: 1
+            - output:/opt/docker
 
 volumes:
     prometheus_data:
