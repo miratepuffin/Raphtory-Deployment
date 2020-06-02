@@ -44,6 +44,7 @@ services:
         ports:
              - 8080:8080
              - 5266:5266
+             - 11600:11600
         command: env-setter.sh singleNodeSetup
         env_file: .env
         volumes:
