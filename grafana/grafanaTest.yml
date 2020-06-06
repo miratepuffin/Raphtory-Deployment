@@ -42,6 +42,7 @@ services:
         depends_on:
             - prometheus
         ports:
+             - 8081:8081
              - 8080:8080
              - 5266:5266
              - 11600:11600
