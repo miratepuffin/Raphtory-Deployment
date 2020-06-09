@@ -273,7 +273,7 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "avg(Raphtory_Wall_Clock_bucket/1000)",
+          "expr": "increase(Raphtory_Wall_Clock_sum[1m])/increase(Raphtory_Wall_Clock_count[1m])/1000",
           "instant": false,
           "interval": "",
           "legendFormat": "",
@@ -463,7 +463,7 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "sum by(ID,Actor)(increase(Raphtory_Spout_Tuples_total[1m])/2)",
+          "expr": "sum by(ID,Actor)(rate(Raphtory_Spout_Tuples_total[1m])/2)",
           "interval": "",
           "legendFormat": "",
           "refId": "A"
@@ -577,7 +577,7 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "sum by(Router,Worker)(increase(Raphtory_Router_Output_total[1m])/2)",
+          "expr": "sum by(Router,Worker)(rate(Raphtory_Router_Output_total[1m])/2)",
           "interval": "",
           "legendFormat": "",
           "refId": "A"
@@ -691,7 +691,7 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "sum by(ID,Actor)(increase(Raphtory_Router_Updates_total{ID!=\"\"}[1m])/2)",
+          "expr": "sum by(ID,Actor)(rate(Raphtory_Router_Updates_total{ID!=\"\"}[1m])/2)",
           "interval": "",
           "legendFormat": "",
           "refId": "A"
@@ -805,7 +805,7 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "sum by(ID,Actor)(increase(Raphtory_Intra_Worker_Updates_total{ID!=\"\"}[1m])/2)",
+          "expr": "sum by(ID,Actor)(rate(Raphtory_Intra_Worker_Updates_total{ID!=\"\"}[1m])/2)",
           "interval": "",
           "legendFormat": "",
           "refId": "A"
@@ -1039,7 +1039,7 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "sum by(ID,Actor)(increase(Raphtory_Inter_Worker_Updates_total{ID!=\"\"}[1m])/2)",
+          "expr": "sum by(ID,Actor)(rate(Raphtory_Inter_Worker_Updates_total{ID!=\"\"}[1m])/2)",
           "interval": "",
           "legendFormat": "",
           "refId": "A"
@@ -1696,7 +1696,7 @@
     "list": []
   },
   "time": {
-    "from": "now-15m",
+    "from": "now-1h",
     "to": "now"
   },
   "timepicker": {
