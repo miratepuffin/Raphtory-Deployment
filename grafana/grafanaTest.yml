@@ -22,7 +22,7 @@ services:
             replicas: 1
 
     grafana:
-        image: grafana/grafana
+        image: miratepuffin/raphtory_grafana
         user: "472"
         depends_on:
             - prometheus
