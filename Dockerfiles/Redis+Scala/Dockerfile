@@ -4,19 +4,7 @@ RUN apt-get update -y && apt-get install build-essential -y && apt-get install t
 
 RUN apt-get update && apt-get install -y dnsutils && ln -s /opt/docker/aspectjweaver /opt/aspectjweaver && apt-get install -y unzip
 
-COPY blocks blocks
-
-RUN apt-get install netcat -y
-
-RUN apt-get install curl -y
-
-RUN apt-get install less -y
-
-RUN apt-get install vim -y
-
-RUN apt-get install net-tools -y
-
-RUN apt-get install lsof -y
+RUN apt-get install netcat -y && apt-get install curl -y && apt-get install less -y && apt-get install vim -y && apt-get install net-tools -y && apt-get install lsof -y && apt-get install traceroute -y
 
 COPY gabNetwork500.csv gabNetwork500.csv
 
