@@ -46,8 +46,6 @@ function setup_workers() {
         docker node update --label-add raphtoryrole=partitionManager $i
     done
 
-    docker node update --label-add raphtoryrole=setupjobs moon15
-
     echo "PARTITION_MIN=$1" >> .env
     echo "ROUTER_MIN=1" >> .env
 }
