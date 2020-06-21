@@ -1,11 +1,11 @@
 #!/bin/bash
 
 
-function clean_labels() {
-    for i in $(cat nodelists/awsnodes | head -n 14); do
-        docker node update --label-rm raphtoryrole $i
-    done
-}
+#function clean_labels() {
+#    for i in $(cat nodelists/awsnodes | head -n 14); do
+#        docker node update --label-rm raphtoryrole $i
+#    done
+#}
 
 function deploy {
     docker stack deploy raphtory --compose-file cluster.yml
@@ -38,13 +38,13 @@ function serviceLog() {
 
 
 function setup_workers() {
-    for i in $(cat nodelists/routers.list | head -n 1); do
-        docker node update --label-add raphtoryrole=router $i
-    done
+#    for i in $(cat nodelists/routers.list | head -n 1); do
+#        docker node update --label-add raphtoryrole=router $i
+#    done
 
-    for i in $(cat nodelists/pm.list | head -n $1); do
-        docker node update --label-add raphtoryrole=partitionManager $i
-    done
+#    for i in $(cat nodelists/pm.list | head -n $1); do
+#        docker node update --label-add raphtoryrole=partitionManager $i
+#    done
 
     echo "PARTITION_MIN=$1" >> .env
     echo "ROUTER_MIN=1" >> .env
@@ -53,7 +53,7 @@ function setup_workers() {
 function run() {
     date
     echo "$1 PM/R"
-    clean_labels
+#    clean_labels
     setup_workers $1
     deploy
     sleep 180
