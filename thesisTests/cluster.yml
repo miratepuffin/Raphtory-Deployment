@@ -73,6 +73,3 @@ services:
             placement:
                 constraints:
                     - node.labels.raphtoryrole==setupjobs
-
-volumes:
-    prometheus_data:
