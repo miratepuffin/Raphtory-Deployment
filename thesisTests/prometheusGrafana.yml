@@ -16,7 +16,7 @@ services:
         volumes:
             - prometheus_data:/prometheus
             - ../Dockerfiles/prometheus/charts_html:/usr/share/prometheus/consoles
-        env_file: ../.env
+        env_file: .env
         deploy:
             endpoint_mode: vip
             replicas: 1
@@ -34,7 +34,7 @@ services:
             - grafana_data:/var/lib/grafana
             - ./provisioning/:/etc/grafana/provisioning/
         env_file:
-            - ./config.monitoring
+            - .env
         deploy:
             endpoint_mode: vip
             replicas: 1
