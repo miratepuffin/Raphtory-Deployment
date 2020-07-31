@@ -1,11 +1,22 @@
-FROM bigtruedata/scala
+FROM hseeberger/scala-sbt:graalvm-ce-20.0.0-java11_1.3.13_2.13.3
 
-RUN apt-get update -y && apt-get install build-essential -y && apt-get install tcl8.5 -y
+RUN yum install -y bind-utils && ln -s /opt/docker/aspectjweaver /opt/aspectjweaver && yum install -y unzip
 
-RUN apt-get update && apt-get install -y dnsutils && ln -s /opt/docker/aspectjweaver /opt/aspectjweaver && apt-get install -y unzip
+RUN yum install curl -y && yum install less -y && yum install vim-enhanced -y && yum install net-tools -y && yum install lsof -y && yum install traceroute -y
 
-RUN apt-get install netcat -y && apt-get install curl -y && apt-get install less -y && apt-get install vim -y && apt-get install net-tools -y && apt-get install lsof -y && apt-get install traceroute -y
+RUN yum install wget -y
 
-COPY gabNetwork500.csv gabNetwork500.csv
+RUN wget https://download-gcdn.ej-technologies.com/jprofiler/jprofiler_linux_11_1_3.tar.gz -P /tmp/ &&\
+ tar -xzf /tmp/jprofiler_linux_11_1_3.tar.gz -C /usr/local &&\
+ rm /tmp/jprofiler_linux_11_1_3.tar.gz
+
+ENV JPAGENT_PATH="-agentpath:/usr/local/jprofiler11.1.3/bin/linux-x64/libjprofilerti.so=nowait"
+EXPOSE 8849
+
+RUN yum -y install hostname && yum install -y iproute
+
+Run mkdir /app && chmod 777 /app
+
+COPY gabNetwork500.csv /app/gabNetwork500.csv
 
 ENTRYPOINT ["/bin/bash"]
