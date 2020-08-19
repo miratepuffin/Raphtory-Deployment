@@ -2,6 +2,7 @@ FROM adoptopenjdk:14-hotspot-bionic
 
 RUN apt-get update -y && apt-get install build-essential -y && apt-get install tcl8.5 -y
 
+RUN apt install -y iproute2
 
 RUN apt-get install wget
 
@@ -18,6 +19,7 @@ EXPOSE 8849
 
 COPY gabNetwork500.csv gabNetwork500.csv
 
+COPY profiler.sh profiler.sh
 
 RUN wget https://downloads.typesafe.com/scala/2.13.3/scala-2.13.3.tgz
 RUN mkdir /usr/share/scala
