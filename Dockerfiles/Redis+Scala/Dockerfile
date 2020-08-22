@@ -34,4 +34,9 @@ Run mkdir /app && chmod 777 /app
 
 COPY gabNetwork500.csv /app/gabNetwork500.csv
 
+RUN wget https://github.com/prometheus/node_exporter/releases/download/v1.0.1/node_exporter-1.0.1.linux-386.tar.gz &&\
+tar xvfz node_exporter-1.0.1.linux-386.tar.gz && \ 
+cd node_exporter-1.0.1.linux-386 && \
+nohup bash -c "./node_exporter &" && sleep 5
+
 ENTRYPOINT ["/bin/bash"]
